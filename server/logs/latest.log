@@ -1,48 +1,108 @@
-[02dez.2025 22:27:03.742] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 245ms
-[02dez.2025 22:27:03.754] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[02dez.2025 22:27:03.756] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\minecraft\minecraft-servidor-01\server
-[02dez.2025 22:27:03.822] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 74) in 28ms
-[02dez.2025 22:27:03.822] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[02dez.2025 22:27:03.823] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[02dez.2025 22:27:03.824] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[02dez.2025 22:27:03.832] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[02dez.2025 22:27:03.853] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[02dez.2025 22:27:04.074] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[02dez.2025 22:27:04.077] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[02dez.2025 22:31:06.284] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 282ms
+[02dez.2025 22:31:06.294] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[02dez.2025 22:31:06.295] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\minecraft\minecraft-servidor-01\server
+[02dez.2025 22:31:06.356] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 74) in 24ms
+[02dez.2025 22:31:06.356] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[02dez.2025 22:31:06.357] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[02dez.2025 22:31:06.358] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[02dez.2025 22:31:06.366] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[02dez.2025 22:31:06.386] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[02dez.2025 22:31:06.586] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[02dez.2025 22:31:06.588] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
 		FallingTree 1.21.10.1 (fallingtree)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[02dez.2025 22:27:04.217] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[02dez.2025 22:27:04.244] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[02dez.2025 22:27:04.249] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[02dez.2025 22:27:04.344] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[02dez.2025 22:31:06.707] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[02dez.2025 22:31:06.730] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[02dez.2025 22:31:06.732] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[02dez.2025 22:31:06.809] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[02dez.2025 22:27:04.362] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 26ms
-[02dez.2025 22:27:05.754] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[02dez.2025 22:27:10.709] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[02dez.2025 22:27:11.125] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[02dez.2025 22:27:13.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[02dez.2025 22:27:13.032] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[02dez.2025 22:27:13.035] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[02dez.2025 22:27:14.046] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[02dez.2025 22:27:14.047] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[02dez.2025 22:27:14.048] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[02dez.2025 22:27:14.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[02dez.2025 22:27:14.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.49.201.99:25565
-[02dez.2025 22:27:14.218] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[02dez.2025 22:27:14.329] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[02dez.2025 22:27:14.659] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[02dez.2025 22:27:14.718] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[02dez.2025 22:27:14.730] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 71 ms
-[02dez.2025 22:27:14.743] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.442s)! For help, type "help"
-[02dez.2025 22:27:14.797] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[02dez.2025 22:27:31.657] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
-[02dez.2025 22:27:32.698] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.49.201.166:63562] logged in with entity id 75 at (32.10137724502256, 73.0, -18.986760207752994)
-[02dez.2025 22:27:32.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[02dez.2025 22:31:06.823] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 22ms
+[02dez.2025 22:31:08.081] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[02dez.2025 22:31:12.521] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[02dez.2025 22:31:12.876] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[02dez.2025 22:31:14.961] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[02dez.2025 22:31:14.981] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[02dez.2025 22:31:14.984] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[02dez.2025 22:31:15.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[02dez.2025 22:31:15.820] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[02dez.2025 22:31:15.820] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[02dez.2025 22:31:15.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[02dez.2025 22:31:15.906] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.49.201.99:25565
+[02dez.2025 22:31:15.993] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[02dez.2025 22:31:16.078] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[02dez.2025 22:31:16.397] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[02dez.2025 22:31:16.399] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[02dez.2025 22:31:16.414] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 18 ms
+[02dez.2025 22:31:16.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.368s)! For help, type "help"
+[02dez.2025 22:31:16.447] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[02dez.2025 22:31:25.120] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[02dez.2025 22:31:26.560] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:64103] logged in with entity id 90 at (2.4499366183931075, 69.0, 18.04809016173819)
+[02dez.2025 22:31:26.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[02dez.2025 22:31:30.698] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
+[02dez.2025 22:31:31.129] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.49.201.166:63667] logged in with entity id 278 at (32.10137724502256, 73.0, -18.986760207752994)
+[02dez.2025 22:31:31.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[02dez.2025 22:31:31.217] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: Sheep['Sheep'/289, l='ServerLevel[New World]', x=208.00, y=63.00, z=-136.59]
+[02dez.2025 22:31:45.128] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
+[02dez.2025 22:31:45.666] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:64179] logged in with entity id 353 at (-1.2910025612258302, 65.0, 60.450225243370525)
+[02dez.2025 22:31:45.670] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
+[02dez.2025 22:32:43.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Stone Age]
+[02dez.2025 22:33:47.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Stone Age]
+[02dez.2025 22:35:12.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Getting an Upgrade]
+[02dez.2025 22:37:14.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Acquire Hardware]
+[02dez.2025 22:40:22.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Sweet Dreams]
+[02dez.2025 22:40:23.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Sweet Dreams]
+[02dez.2025 22:41:41.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Monster Hunter]
+[02dez.2025 22:41:50.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Sweet Dreams]
+[02dez.2025 22:42:11.023] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[02dez.2025 22:42:11.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[02dez.2025 22:42:41.398] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[02dez.2025 22:42:42.077] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:64368] logged in with entity id 4031 at (191.69657152511377, 67.0, 72.95411840417395)
+[02dez.2025 22:42:42.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[02dez.2025 22:44:08.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Stone Age]
+[02dez.2025 22:44:31.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Getting an Upgrade]
+[02dez.2025 22:47:41.805] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Monster Hunter]
+[02dez.2025 22:53:45.262] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
+[02dez.2025 22:53:45.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
+[02dez.2025 22:53:46.607] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[02dez.2025 22:53:46.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[02dez.2025 22:53:59.841] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[02dez.2025 22:54:00.360] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:64957] logged in with entity id 9024 at (194.30000001192093, 31.0, 65.34655095831977)
+[02dez.2025 22:54:00.362] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[02dez.2025 22:54:02.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Gamerule playersSleepingPercentage is now set to: 1
+[02dez.2025 22:54:13.891] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
+[02dez.2025 22:54:14.215] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:52690] logged in with entity id 9161 at (-109.6650854168535, 72.0, 207.76688967016736)
+[02dez.2025 22:54:14.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
+[02dez.2025 22:55:56.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Acquire Hardware]
+[02dez.2025 22:56:29.667] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Isn't It Iron Pick]
+[02dez.2025 22:57:16.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Getting an Upgrade]
+[02dez.2025 23:05:31.952] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Suit Up]
+[02dez.2025 23:10:56.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Acquire Hardware]
+[02dez.2025 23:12:39.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Monster Hunter]
+[02dez.2025 23:49:05.510] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/24881, l='ServerLevel[New World]', x=192.15, y=59.00, z=141.51] died, message: 'Villager was slain by pedropcm123'
+[02dez.2025 23:49:41.750] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/26918, l='ServerLevel[New World]', x=192.15, y=59.00, z=141.53] died, message: 'Villager was slain by pedropcm123'
+[02dez.2025 23:54:44.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[02dez.2025 23:54:44.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[02dez.2025 23:54:46.863] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
+[02dez.2025 23:54:46.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
+[02dez.2025 23:54:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02dez.2025 23:54:54.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02dez.2025 23:54:54.233] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Server closed
+[02dez.2025 23:54:54.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[02dez.2025 23:54:54.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02dez.2025 23:54:54.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[02dez.2025 23:54:54.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[02dez.2025 23:54:54.795] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[02dez.2025 23:54:54.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02dez.2025 23:54:54.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02dez.2025 23:54:54.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02dez.2025 23:54:54.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02dez.2025 23:54:54.897] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader afeedf5
+[02dez.2025 23:54:54.904] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
