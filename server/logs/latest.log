@@ -1,14 +1,14 @@
-[09dez.2025 20:32:05.271] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 77ms
-[09dez.2025 20:32:05.280] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[09dez.2025 20:32:05.281] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Minecraft\minecraft-servidor-01\server
-[09dez.2025 20:32:05.319] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 16ms
-[09dez.2025 20:32:05.319] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[09dez.2025 20:32:05.320] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[09dez.2025 20:32:05.321] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[09dez.2025 20:32:05.325] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[09dez.2025 20:32:05.341] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[09dez.2025 20:32:05.466] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[09dez.2025 20:32:05.468] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[12dez.2025 22:45:16.041] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 338ms
+[12dez.2025 22:45:16.052] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[12dez.2025 22:45:16.052] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\pedro\OneDrive\Desktop\server\minecraft-servidor-01\server
+[12dez.2025 22:45:16.106] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 22ms
+[12dez.2025 22:45:16.106] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[12dez.2025 22:45:16.107] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[12dez.2025 22:45:16.108] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[12dez.2025 22:45:16.113] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[12dez.2025 22:45:16.130] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[12dez.2025 22:45:16.295] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12dez.2025 22:45:16.297] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -16,103 +16,100 @@
 		Just Enough Items 26.2.0.27 (jei)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[09dez.2025 20:32:05.559] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[09dez.2025 20:32:05.580] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[09dez.2025 20:32:05.581] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[09dez.2025 20:32:05.646] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[12dez.2025 22:45:16.422] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/pedro/OneDrive/Desktop/server/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[12dez.2025 22:45:16.445] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[12dez.2025 22:45:16.446] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[12dez.2025 22:45:16.533] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[09dez.2025 20:32:05.659] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 20ms
-[09dez.2025 20:32:06.340] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[09dez.2025 20:32:09.262] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[09dez.2025 20:32:09.488] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[09dez.2025 20:32:10.529] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[09dez.2025 20:32:10.541] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[09dez.2025 20:32:10.543] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[09dez.2025 20:32:10.921] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[09dez.2025 20:32:10.921] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[09dez.2025 20:32:10.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[09dez.2025 20:32:10.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09dez.2025 20:32:10.989] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.44.177.84:25565
-[09dez.2025 20:32:11.040] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[09dez.2025 20:32:11.102] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[09dez.2025 20:32:11.308] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[09dez.2025 20:32:11.319] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[09dez.2025 20:32:11.338] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 30 ms
-[09dez.2025 20:32:11.374] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.299s)! For help, type "help"
-[09dez.2025 20:32:11.402] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[09dez.2025 20:33:11.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[09dez.2025 20:33:16.033] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
-[09dez.2025 20:33:17.788] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:53342] logged in with entity id 24 at (625.6098716904804, 73.0, -64.92641063967967)
-[09dez.2025 20:33:17.823] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
-[09dez.2025 21:07:18.473] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[09dez.2025 21:07:19.800] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:49312] logged in with entity id 6890 at (41.32147177464806, 68.875, 102.76717119329277)
-[09dez.2025 21:07:19.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[09dez.2025 21:15:26.160] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6, y=68, z=145} BlockPos{x=3, y=67, z=145}
-[09dez.2025 21:15:26.214] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6, y=68, z=145} BlockPos{x=3, y=67, z=145}
-[09dez.2025 21:15:26.282] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=6, y=68, z=145} BlockPos{x=3, y=67, z=145}
-[09dez.2025 21:15:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Spooky Scary Skeleton]
-[09dez.2025 21:17:05.953] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[09dez.2025 21:17:05.955] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[09dez.2025 21:18:26.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Into Fire]
-[09dez.2025 21:24:20.475] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[09dez.2025 21:24:21.276] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:60417] logged in with entity id 10924 at (9.504327030764886, 68.0, 82.86384680058056)
-[09dez.2025 21:24:21.286] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[09dez.2025 22:01:49.240] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
-[09dez.2025 22:01:50.181] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:50779] logged in with entity id 21495 at (156.26028178105886, 64.0, 70.34992332696763)
-[09dez.2025 22:01:50.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
-[09dez.2025 22:13:19.511] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[09dez.2025 22:13:19.512] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[09dez.2025 22:27:56.235] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[09dez.2025 22:27:56.876] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:52196] logged in with entity id 29620 at (22.722109085224982, 68.0, 98.71996558546608)
-[09dez.2025 22:27:56.887] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[09dez.2025 22:36:12.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved wrongly! 0.5148490382034652
-[09dez.2025 22:41:20.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has completed the challenge [Hot Tourist Destinations]
-[09dez.2025 22:41:30.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [A Terrible Fortress]
-[09dez.2025 22:41:41.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Into Fire]
-[09dez.2025 22:49:44.522] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Eye Spy]
-[09dez.2025 22:50:42.375] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
-[09dez.2025 22:50:42.375] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
-[09dez.2025 22:55:14.875] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
-[09dez.2025 22:55:15.675] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:64099] logged in with entity id 50432 at (152.85770574417393, 64.0, 78.63625610955894)
-[09dez.2025 22:55:15.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
-[09dez.2025 23:03:45.225] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[09dez.2025 23:04:52.768] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[09dez.2025 23:09:32.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> 2164, 521
-[09dez.2025 23:17:21.542] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <pedropcm123> 1600 500
-[09dez.2025 23:20:14.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Eye Spy]
-[09dez.2025 23:32:39.868] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2167, y=16, z=526} BlockPos{x=2168, y=16, z=527}
-[09dez.2025 23:32:39.930] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=2167, y=16, z=526} BlockPos{x=2168, y=16, z=527}
-[09dez.2025 23:32:41.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Eye Spy]
-[09dez.2025 23:33:51.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [The End?]
-[09dez.2025 23:33:52.576] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Scanning for legacy world dragon fight...
-[09dez.2025 23:33:52.577] [Server thread/INFO] [net.minecraft.world.level.dimension.end.EndDragonFight/]: Found that the dragon has not yet been killed in this world.
-[09dez.2025 23:33:53.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [The End?]
-[09dez.2025 23:33:53.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [The End?]
-[09dez.2025 23:33:53.981] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2113ms or 42 ticks behind
-[09dez.2025 23:39:52.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 was slain by Enderman
-[09dez.2025 23:43:14.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 was killed by Ender Dragon using magic
-[09dez.2025 23:44:19.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Free the End]
-[09dez.2025 23:46:31.782] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 has made the advancement [Hot Stuff]
-[09dez.2025 23:53:04.202] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
-[09dez.2025 23:53:04.204] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
-[09dez.2025 23:54:24.372] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
-[09dez.2025 23:54:24.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
-[09dez.2025 23:54:25.307] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[09dez.2025 23:54:25.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[09dez.2025 23:54:38.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09dez.2025 23:54:38.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09dez.2025 23:54:38.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09dez.2025 23:54:38.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09dez.2025 23:54:38.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09dez.2025 23:54:38.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09dez.2025 23:54:38.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09dez.2025 23:54:38.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09dez.2025 23:54:38.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09dez.2025 23:54:38.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09dez.2025 23:54:38.320] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 1cc05bcd
-[09dez.2025 23:54:38.321] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[12dez.2025 22:45:16.545] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 21ms
+[12dez.2025 22:45:17.604] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[12dez.2025 22:45:21.553] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[12dez.2025 22:45:21.852] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[12dez.2025 22:45:23.315] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[12dez.2025 22:45:23.332] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[12dez.2025 22:45:23.334] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[12dez.2025 22:45:24.057] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12dez.2025 22:45:24.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.46.98.193:25565
+[12dez.2025 22:45:24.215] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[12dez.2025 22:45:24.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12dez.2025 22:45:24.664] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[12dez.2025 22:45:24.687] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[12dez.2025 22:45:24.718] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 55 ms
+[12dez.2025 22:45:24.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.463s)! For help, type "help"
+[12dez.2025 22:45:24.792] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12dez.2025 22:46:24.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[12dez.2025 22:46:45.173] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
+[12dez.2025 22:46:46.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:59292] logged in with entity id 97 at (179.44929038456533, 65.5, 78.30000001192093)
+[12dez.2025 22:46:46.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[12dez.2025 22:46:50.240] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2443ms or 48 ticks behind
+[12dez.2025 22:53:02.305] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=63, z=83}
+[12dez.2025 22:53:02.509] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=64, z=85}
+[12dez.2025 22:53:02.555] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=64, z=85}
+[12dez.2025 22:59:09.181] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:10.427] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:11.708] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:12.699] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:13.866] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:14.896] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:18.389] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:23.387] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:25.472] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:27.537] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:28.638] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:29.746] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:30.990] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:32.028] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:33.101] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:40.497] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:47.879] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:50.584] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:51.668] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:52.749] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:54.016] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 22:59:55.086] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:23.954] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:25.003] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:26.079] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:27.906] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:29.004] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:30.007] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:31.850] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:36.627] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:44.323] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:45.364] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:46.425] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:47.468] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:48.519] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:51.052] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:51.674] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:52.268] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:52.858] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:54.074] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:55.048] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:55.659] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:56.346] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:57.183] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:57.704] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:00:58.283] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[12dez.2025 23:50:25.427] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
+[12dez.2025 23:50:25.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[12dez.2025 23:50:29.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12dez.2025 23:50:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12dez.2025 23:50:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12dez.2025 23:50:29.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[12dez.2025 23:50:29.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[12dez.2025 23:50:29.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12dez.2025 23:50:29.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12dez.2025 23:50:29.629] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 62d06b34
+[12dez.2025 23:50:29.632] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
