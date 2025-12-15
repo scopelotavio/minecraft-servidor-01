@@ -1,14 +1,14 @@
-[12dez.2025 22:45:16.041] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 338ms
-[12dez.2025 22:45:16.052] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[12dez.2025 22:45:16.052] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\pedro\OneDrive\Desktop\server\minecraft-servidor-01\server
-[12dez.2025 22:45:16.106] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 22ms
-[12dez.2025 22:45:16.106] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[12dez.2025 22:45:16.107] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[12dez.2025 22:45:16.108] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[12dez.2025 22:45:16.113] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[12dez.2025 22:45:16.130] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[12dez.2025 22:45:16.295] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[12dez.2025 22:45:16.297] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[14dez.2025 17:48:50.251] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 127ms
+[14dez.2025 17:48:50.262] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[14dez.2025 17:48:50.263] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\minecraft\minecraft-servidor-01\server
+[14dez.2025 17:48:50.319] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 22ms
+[14dez.2025 17:48:50.320] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[14dez.2025 17:48:50.321] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[14dez.2025 17:48:50.322] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[14dez.2025 17:48:50.329] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[14dez.2025 17:48:50.349] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[14dez.2025 17:48:50.518] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[14dez.2025 17:48:50.521] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -16,100 +16,38 @@
 		Just Enough Items 26.2.0.27 (jei)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[12dez.2025 22:45:16.422] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/pedro/OneDrive/Desktop/server/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[12dez.2025 22:45:16.445] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[12dez.2025 22:45:16.446] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[12dez.2025 22:45:16.533] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[14dez.2025 17:48:50.645] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[14dez.2025 17:48:50.663] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[14dez.2025 17:48:50.664] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[14dez.2025 17:48:50.749] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[12dez.2025 22:45:16.545] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 21ms
-[12dez.2025 22:45:17.604] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[12dez.2025 22:45:21.553] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[12dez.2025 22:45:21.852] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[12dez.2025 22:45:23.315] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[12dez.2025 22:45:23.332] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[12dez.2025 22:45:23.334] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[12dez.2025 22:45:24.057] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[12dez.2025 22:45:24.059] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[12dez.2025 22:45:24.140] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.46.98.193:25565
-[12dez.2025 22:45:24.215] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[12dez.2025 22:45:24.305] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[12dez.2025 22:45:24.664] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[12dez.2025 22:45:24.687] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[12dez.2025 22:45:24.718] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 55 ms
-[12dez.2025 22:45:24.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.463s)! For help, type "help"
-[12dez.2025 22:45:24.792] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[12dez.2025 22:46:24.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[12dez.2025 22:46:45.173] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
-[12dez.2025 22:46:46.628] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:59292] logged in with entity id 97 at (179.44929038456533, 65.5, 78.30000001192093)
-[12dez.2025 22:46:46.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
-[12dez.2025 22:46:50.240] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2443ms or 48 ticks behind
-[12dez.2025 22:53:02.305] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=63, z=83}
-[12dez.2025 22:53:02.509] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=64, z=85}
-[12dez.2025 22:53:02.555] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=131, y=65, z=85} BlockPos{x=131, y=64, z=85}
-[12dez.2025 22:59:09.181] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:10.427] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:11.708] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:12.699] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:13.866] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:14.896] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:18.389] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:23.387] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:25.472] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:27.537] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:28.638] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:29.746] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:30.990] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:32.028] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:33.101] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:40.497] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:47.879] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:50.584] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:51.668] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:52.749] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:54.016] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 22:59:55.086] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:23.954] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:25.003] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:26.079] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:27.906] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:29.004] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:30.007] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:31.850] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:36.627] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:44.323] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:45.364] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:46.425] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:47.468] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:48.519] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:51.052] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:51.674] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:52.268] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:52.858] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:54.074] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:55.048] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:55.659] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:56.346] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:57.183] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:57.704] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:00:58.283] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
-[12dez.2025 23:50:25.427] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
-[12dez.2025 23:50:25.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
-[12dez.2025 23:50:29.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[12dez.2025 23:50:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[12dez.2025 23:50:29.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[12dez.2025 23:50:29.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[12dez.2025 23:50:29.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[12dez.2025 23:50:29.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[12dez.2025 23:50:29.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[12dez.2025 23:50:29.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[12dez.2025 23:50:29.629] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 62d06b34
-[12dez.2025 23:50:29.632] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[14dez.2025 17:48:50.764] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 26ms
+[14dez.2025 17:48:51.968] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[14dez.2025 17:48:56.518] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[14dez.2025 17:48:56.890] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[14dez.2025 17:48:58.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[14dez.2025 17:48:58.598] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[14dez.2025 17:48:58.601] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[14dez.2025 17:48:59.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14dez.2025 17:48:59.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.49.201.99:25565
+[14dez.2025 17:48:59.356] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[14dez.2025 17:48:59.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14dez.2025 17:48:59.746] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[14dez.2025 17:48:59.874] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[14dez.2025 17:48:59.942] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 196 ms
+[14dez.2025 17:48:59.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.547s)! For help, type "help"
+[14dez.2025 17:48:59.988] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14dez.2025 17:49:59.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[14dez.2025 17:50:18.652] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
+[14dez.2025 17:50:20.333] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:52079] logged in with entity id 30 at (21.621792803212738, 68.0, 98.63192219425099)
+[14dez.2025 17:50:20.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
+[14dez.2025 21:00:37.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
+[14dez.2025 21:00:38.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
