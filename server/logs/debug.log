@@ -1,49 +1,49 @@
-[14dez.2025 17:48:50.251] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 127ms
-[14dez.2025 17:48:50.262] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[14dez.2025 17:48:50.263] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\minecraft\minecraft-servidor-01\server
-[14dez.2025 17:48:50.265] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\minecraft\minecraft-servidor-01\server
-[14dez.2025 17:48:50.266] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\minecraft\minecraft-servidor-01\server\.cache\jij
-[14dez.2025 17:48:50.266] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\minecraft\minecraft-servidor-01\server\mods
-[14dez.2025 17:48:50.266] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\minecraft\minecraft-servidor-01\server\config
-[14dez.2025 17:48:50.266] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\minecraft\minecraft-servidor-01\server\config\fml.toml
-[14dez.2025 17:48:50.307] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IDependencyLocator
-[14dez.2025 17:48:50.310] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
-[14dez.2025 17:48:50.317] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar with languages []
-[14dez.2025 17:48:50.317] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar with languages []
-[14dez.2025 17:48:50.319] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 22ms
-[14dez.2025 17:48:50.320] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[14dez.2025 17:48:50.321] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.322] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[14dez.2025 17:48:50.328] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
-[14dez.2025 17:48:50.329] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[14dez.2025 17:48:50.334] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
-[14dez.2025 17:48:50.336] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.336] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.336] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.336] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.338] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
-[14dez.2025 17:48:50.338] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.338] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.341] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
-[14dez.2025 17:48:50.341] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.349] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[14dez.2025 17:48:50.354] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar
-[14dez.2025 17:48:50.372] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecraft-server-patched-21.10.63.jar with {minecraft} mods - versions {1.21.10}
-[14dez.2025 17:48:50.374] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=null]]
-[14dez.2025 17:48:50.376] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar
-[14dez.2025 17:48:50.379] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.63-universal.jar with {neoforge} mods - versions {21.10.63}
-[14dez.2025 17:48:50.380] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
-[14dez.2025 17:48:50.382] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
-[14dez.2025 17:48:50.399] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar
-[14dez.2025 17:48:50.402] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FallingTree-1.21.10-1.21.10.1.jar with {fallingtree} mods - versions {1.21.10.1}
-[14dez.2025 17:48:50.402] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
-[14dez.2025 17:48:50.404] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar
-[14dez.2025 17:48:50.406] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.10-neoforge-26.2.0.27.jar with {jei} mods - versions {26.2.0.27}
-[14dez.2025 17:48:50.406] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
-[14dez.2025 17:48:50.488] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
-[14dez.2025 17:48:50.491] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.63.jar with languages []
-[14dez.2025 17:48:50.518] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[14dez.2025 17:48:50.521] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[15dez.2025 20:55:02.547] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 430ms
+[15dez.2025 20:55:02.556] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[15dez.2025 20:55:02.556] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\minecraft\minecraft-servidor-01\server
+[15dez.2025 20:55:02.559] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\minecraft\minecraft-servidor-01\server
+[15dez.2025 20:55:02.559] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\minecraft\minecraft-servidor-01\server\.cache\jij
+[15dez.2025 20:55:02.559] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\minecraft\minecraft-servidor-01\server\mods
+[15dez.2025 20:55:02.560] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\minecraft\minecraft-servidor-01\server\config
+[15dez.2025 20:55:02.560] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\minecraft\minecraft-servidor-01\server\config\fml.toml
+[15dez.2025 20:55:02.598] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IDependencyLocator
+[15dez.2025 20:55:02.600] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
+[15dez.2025 20:55:02.606] [ForkJoinPool.commonPool-worker-7/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar with languages []
+[15dez.2025 20:55:02.606] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar with languages []
+[15dez.2025 20:55:02.610] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 22ms
+[15dez.2025 20:55:02.611] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[15dez.2025 20:55:02.612] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.613] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[15dez.2025 20:55:02.618] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
+[15dez.2025 20:55:02.618] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[15dez.2025 20:55:02.622] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[15dez.2025 20:55:02.624] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.624] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.624] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.625] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.627] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[15dez.2025 20:55:02.628] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.628] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.631] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[15dez.2025 20:55:02.631] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.638] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[15dez.2025 20:55:02.646] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar
+[15dez.2025 20:55:02.661] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecraft-server-patched-21.10.63.jar with {minecraft} mods - versions {1.21.10}
+[15dez.2025 20:55:02.663] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=null]]
+[15dez.2025 20:55:02.665] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar
+[15dez.2025 20:55:02.668] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.63-universal.jar with {neoforge} mods - versions {21.10.63}
+[15dez.2025 20:55:02.669] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[15dez.2025 20:55:02.670] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
+[15dez.2025 20:55:02.686] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar
+[15dez.2025 20:55:02.690] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FallingTree-1.21.10-1.21.10.1.jar with {fallingtree} mods - versions {1.21.10.1}
+[15dez.2025 20:55:02.690] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
+[15dez.2025 20:55:02.691] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar
+[15dez.2025 20:55:02.693] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.10-neoforge-26.2.0.27.jar with {jei} mods - versions {26.2.0.27}
+[15dez.2025 20:55:02.693] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[15dez.2025 20:55:02.774] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
+[15dez.2025 20:55:02.799] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\minecraft\minecraft-servidor-01\server\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.63.jar with languages []
+[15dez.2025 20:55:02.824] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[15dez.2025 20:55:02.827] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -51,382 +51,428 @@
 		Just Enough Items 26.2.0.27 (jei)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[14dez.2025 17:48:50.526] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
-[14dez.2025 17:48:50.526] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
-[14dez.2025 17:48:50.526] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
-[14dez.2025 17:48:50.530] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
-[14dez.2025 17:48:50.531] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[14dez.2025 17:48:50.645] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[14dez.2025 17:48:50.660] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[14dez.2025 17:48:50.661] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
-[14dez.2025 17:48:50.661] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[14dez.2025 17:48:50.662] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[14dez.2025 17:48:50.662] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[14dez.2025 17:48:50.662] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[14dez.2025 17:48:50.662] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.662] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.663] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[14dez.2025 17:48:50.664] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[14dez.2025 17:48:50.669] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
-[14dez.2025 17:48:50.670] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.670] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.671] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
-[14dez.2025 17:48:50.671] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
-[14dez.2025 17:48:50.674] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/neoforge.accesstransformer.cfg in jar(mods/FallingTree-1.21.10-1.21.10.1.jar)
-[14dez.2025 17:48:50.682] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
-[14dez.2025 17:48:50.699] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
-[14dez.2025 17:48:50.707] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar)
-[14dez.2025 17:48:50.714] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of ClassProcessor:
-[14dez.2025 17:48:50.714] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.714] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.715] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[14dez.2025 17:48:50.717] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
-[14dez.2025 17:48:50.717] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[14dez.2025 17:48:50.749] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[15dez.2025 20:55:02.834] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[15dez.2025 20:55:02.834] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[15dez.2025 20:55:02.834] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[15dez.2025 20:55:02.838] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
+[15dez.2025 20:55:02.839] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[15dez.2025 20:55:02.951] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[15dez.2025 20:55:02.971] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[15dez.2025 20:55:02.971] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
+[15dez.2025 20:55:02.972] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[15dez.2025 20:55:02.972] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[15dez.2025 20:55:02.972] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[15dez.2025 20:55:02.973] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[15dez.2025 20:55:02.973] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:02.973] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:02.974] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[15dez.2025 20:55:02.975] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[15dez.2025 20:55:02.980] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
+[15dez.2025 20:55:02.981] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.981] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:02.981] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
+[15dez.2025 20:55:02.982] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
+[15dez.2025 20:55:02.985] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/neoforge.accesstransformer.cfg in jar(mods/FallingTree-1.21.10-1.21.10.1.jar)
+[15dez.2025 20:55:02.994] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
+[15dez.2025 20:55:03.006] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
+[15dez.2025 20:55:03.017] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar)
+[15dez.2025 20:55:03.024] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of ClassProcessor:
+[15dez.2025 20:55:03.024] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:03.024] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:03.025] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:03.025] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[15dez.2025 20:55:03.027] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
+[15dez.2025 20:55:03.027] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[15dez.2025 20:55:03.056] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[14dez.2025 17:48:50.764] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 26ms
-[14dez.2025 17:48:50.797] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.797] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.797] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.797] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[14dez.2025 17:48:50.798] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[14dez.2025 17:48:50.799] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: inject() running with 3 agents
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[14dez.2025 17:48:50.802] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[14dez.2025 17:48:50.806] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[14dez.2025 17:48:50.806] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
-[14dez.2025 17:48:50.810] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
-[14dez.2025 17:48:50.849] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
-[14dez.2025 17:48:50.877] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[14dez.2025 17:48:50.878] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[14dez.2025 17:48:50.879] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[14dez.2025 17:48:50.880] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[14dez.2025 17:48:50.881] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[14dez.2025 17:48:50.882] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[14dez.2025 17:48:50.894] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
-[14dez.2025 17:48:50.967] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
-[14dez.2025 17:48:50.986] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[14dez.2025 17:48:50.988] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[14dez.2025 17:48:50.988] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[14dez.2025 17:48:51.968] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[14dez.2025 17:48:51.970] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
-[14dez.2025 17:48:51.971] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
-[14dez.2025 17:48:51.971] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
-[14dez.2025 17:48:51.982] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
-[14dez.2025 17:48:52.914] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
-[14dez.2025 17:48:54.196] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[14dez.2025 17:48:54.197] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 25
-[14dez.2025 17:48:54.198] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[14dez.2025 17:48:54.198] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
-[14dez.2025 17:48:54.198] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[14dez.2025 17:48:54.198] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[14dez.2025 17:48:54.199] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[14dez.2025 17:48:54.200] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-[14dez.2025 17:48:54.200] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[14dez.2025 17:48:54.201] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\scope\AppData\Local\Temp (java.io.tmpdir)
-[14dez.2025 17:48:54.201] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[14dez.2025 17:48:54.201] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[14dez.2025 17:48:54.202] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[14dez.2025 17:48:54.202] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[14dez.2025 17:48:54.202] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[14dez.2025 17:48:54.202] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[14dez.2025 17:48:56.485] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
-[14dez.2025 17:48:56.493] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for fallingtree with entrypoints [fr.rakambda.fallingtree.neoforge.FallingTree]
-[14dez.2025 17:48:56.498] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler]
-[14dez.2025 17:48:56.501] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for jei with entrypoints [mezz.jei.neoforge.JustEnoughItems]
-[14dez.2025 17:48:56.516] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
-[14dez.2025 17:48:56.518] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[14dez.2025 17:48:56.521] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
-[14dez.2025 17:48:56.532] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
-[14dez.2025 17:48:56.534] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
-[14dez.2025 17:48:56.545] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fallingtree
-[14dez.2025 17:48:56.565] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
-[14dez.2025 17:48:56.566] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.568] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
-[14dez.2025 17:48:56.569] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
-[14dez.2025 17:48:56.570] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.572] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
-[14dez.2025 17:48:56.572] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.573] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
-[14dez.2025 17:48:56.573] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.576] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
-[14dez.2025 17:48:56.576] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.576] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[14dez.2025 17:48:56.577] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
-[14dez.2025 17:48:56.593] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[14dez.2025 17:48:56.593] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[14dez.2025 17:48:56.593] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@363a3538
-[14dez.2025 17:48:56.599] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[14dez.2025 17:48:56.599] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[14dez.2025 17:48:56.601] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[14dez.2025 17:48:56.602] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[14dez.2025 17:48:56.602] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
-[14dez.2025 17:48:56.602] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[14dez.2025 17:48:56.602] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
-[14dez.2025 17:48:56.607] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[14dez.2025 17:48:56.607] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[14dez.2025 17:48:56.607] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[14dez.2025 17:48:56.611] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[14dez.2025 17:48:56.764] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[14dez.2025 17:48:56.771] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
-[14dez.2025 17:48:56.771] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-common.toml
-[14dez.2025 17:48:56.776] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-common.toml for changes
-[14dez.2025 17:48:56.779] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
-[14dez.2025 17:48:56.781] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 888.5 μs
-[14dez.2025 17:48:56.890] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[14dez.2025 17:48:58.585] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[14dez.2025 17:48:58.598] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[14dez.2025 17:48:58.601] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[14dez.2025 17:48:58.651] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 17:48:59.166] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[14dez.2025 17:48:59.167] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[14dez.2025 17:48:59.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.49.201.99:25565
-[14dez.2025 17:48:59.282] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "25.49.201.99"
-[14dez.2025 17:48:59.298] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
-[14dez.2025 17:48:59.309] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-[14dez.2025 17:48:59.317] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[14dez.2025 17:48:59.317] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[14dez.2025 17:48:59.324] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[14dez.2025 17:48:59.356] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[14dez.2025 17:48:59.371] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 16696 (auto-detected)
-[14dez.2025 17:48:59.372] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
-[14dez.2025 17:48:59.372] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
-[14dez.2025 17:48:59.377] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
-[14dez.2025 17:48:59.378] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[14dez.2025 17:48:59.379] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: c8:7f:54:ff:fe:d0:ce:31 (auto-detected)
-[14dez.2025 17:48:59.391] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
-[14dez.2025 17:48:59.414] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[14dez.2025 17:48:59.418] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\jei-server.toml
-[14dez.2025 17:48:59.419] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\jei-server.toml for changes
-[14dez.2025 17:48:59.423] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[14dez.2025 17:48:59.423] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-server.toml
-[14dez.2025 17:48:59.424] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-server.toml for changes
-[14dez.2025 17:48:59.448] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[14dez.2025 17:48:59.746] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[14dez.2025 17:48:59.874] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[14dez.2025 17:48:59.942] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 196 ms
-[14dez.2025 17:48:59.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.547s)! For help, type "help"
-[14dez.2025 17:48:59.982] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 5 language files for en_us
-[14dez.2025 17:48:59.988] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[14dez.2025 17:49:59.943] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[14dez.2025 17:49:59.981] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 17:50:17.745] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[14dez.2025 17:50:17.745] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[14dez.2025 17:50:17.745] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
-[14dez.2025 17:50:17.745] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
-[14dez.2025 17:50:17.745] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
-[14dez.2025 17:50:18.652] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[14dez.2025 17:50:18.822] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@4beb6d9c into net.minecraft.network.Connection@3de408f6
-[14dez.2025 17:50:20.191] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@31589ea4 into net.minecraft.network.Connection@3de408f6
-[14dez.2025 17:50:20.333] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:52079] logged in with entity id 30 at (21.621792803212738, 68.0, 98.63192219425099)
-[14dez.2025 17:50:20.360] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1461 recipes of the following types: [smithing, blasting, campfire_cooking, smoking, crafting, smelting, stonecutting]
-[14dez.2025 17:50:20.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[14dez.2025 17:55:20.070] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:00:20.056] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:05:20.057] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:10:20.038] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:15:20.040] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:20:20.048] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:25:20.034] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:30:20.036] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:35:20.026] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:40:20.034] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:45:20.033] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:50:20.032] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 18:55:20.038] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:00:20.040] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:05:20.039] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:10:20.045] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:15:20.026] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:17:47.912] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:47.916] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:49.247] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:49.250] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:50.298] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:50.302] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:51.352] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:51.354] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:52.407] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:52.411] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:55.006] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=25, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:55.009] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=25, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:56.045] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=24, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:56.047] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=24, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:57.101] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=23, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:57.104] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=23, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:58.143] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=22, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:58.146] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=22, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:59.194] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=21, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:17:59.196] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=21, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:01.245] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=19, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:01.249] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=19, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:02.299] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=18, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:02.302] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=18, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:03.347] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=17, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:03.349] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=17, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:04.392] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=16, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:04.394] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=16, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:05.447] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=15, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:05.450] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=15, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:06.754] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:06.757] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:08.006] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:08.008] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:09.053] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:09.055] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:10.091] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:10.094] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:11.152] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:11.155] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:12.946] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=96}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:12.949] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=96}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:14.750] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=95}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:14.753] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=95}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:15.804] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=94}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:15.807] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=94}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:16.851] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=93}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:16.853] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=93}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:17.900] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=92}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:17.904] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=92}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:20.499] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=90}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:20.502] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=90}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:21.547] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=89}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:21.549] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=89}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:23.006] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=88}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:23.009] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=88}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:24.148] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=87}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:24.150] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=87}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:25.255] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=86}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:25.257] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=70, z=86}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:39.095] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:39.098] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:40.148] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:40.150] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:41.203] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:41.204] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:42.242] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:42.245] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:43.295] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:18:43.297] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:19:49.647] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=71, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:19:49.649] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=71, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:20:20.033] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:21:24.445] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:24.448] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:25.498] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:25.501] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=91}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:51.306] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:51.309] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:52.653] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:52.656] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:54.905] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=26, y=69, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:54.908] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=26, y=69, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:56.201] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=26, y=68, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:21:56.203] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=26, y=68, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:25:20.038] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:26:54.094] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:54.098] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:55.445] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:55.449] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:56.742] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:56.745] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:57.796] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:57.799] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:59.100] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:26:59.103] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=102}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:00.242] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:00.247] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=101}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:01.544] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:01.548] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=100}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:02.602] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:02.606] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=99}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:04.002] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:04.004] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=98}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:05.100] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:05.103] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:06.899] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:06.903] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=69, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:08.151] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:08.154] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=70, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:09.603] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:09.606] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=32, y=68, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:11.396] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:11.400] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:17.847] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:17.850] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=31, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:20.505] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:20.508] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:26.903] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:26.907] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=30, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:28.105] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:28.108] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:34.400] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:34.402] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=29, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:35.504] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:35.508] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:41.806] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:41.808] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=28, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:42.948] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:42.952] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=71, z=97}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:49.248] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:27:49.251] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=27, y=71, z=103}) doesn't have enough leaves around top most log
-[14dez.2025 19:30:20.039] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:35:20.034] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:40:20.050] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:45:20.022] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:50:20.026] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 19:52:08.695] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=73, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:52:08.698] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=73, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:52:10.048] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=72, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:52:10.051] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=14, y=72, z=85}) doesn't have enough leaves around top most log
-[14dez.2025 19:55:20.036] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:00:20.029] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:05:20.021] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:10:19.981] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:15:19.949] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:20:19.887] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:25:19.835] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:30:19.795] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:35:19.747] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:40:19.705] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:45:19.674] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:50:19.652] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 20:55:19.631] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 21:00:19.605] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[14dez.2025 21:00:37.988] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[14dez.2025 21:00:38.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
+[15dez.2025 20:55:03.071] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 23ms
+[15dez.2025 20:55:03.111] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:03.111] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:03.112] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.112] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.113] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.114] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.114] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[15dez.2025 20:55:03.114] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[15dez.2025 20:55:03.116] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[15dez.2025 20:55:03.117] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[15dez.2025 20:55:03.117] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[15dez.2025 20:55:03.117] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[15dez.2025 20:55:03.119] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[15dez.2025 20:55:03.121] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[15dez.2025 20:55:03.124] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[15dez.2025 20:55:03.164] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[15dez.2025 20:55:03.193] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[15dez.2025 20:55:03.195] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[15dez.2025 20:55:03.195] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[15dez.2025 20:55:03.196] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[15dez.2025 20:55:03.197] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[15dez.2025 20:55:03.198] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[15dez.2025 20:55:03.209] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[15dez.2025 20:55:03.266] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[15dez.2025 20:55:03.283] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[15dez.2025 20:55:03.285] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[15dez.2025 20:55:03.285] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[15dez.2025 20:55:04.311] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[15dez.2025 20:55:04.313] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[15dez.2025 20:55:04.314] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[15dez.2025 20:55:04.315] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[15dez.2025 20:55:04.324] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[15dez.2025 20:55:05.449] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[15dez.2025 20:55:07.016] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[15dez.2025 20:55:07.017] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 25
+[15dez.2025 20:55:07.018] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[15dez.2025 20:55:07.018] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[15dez.2025 20:55:07.019] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[15dez.2025 20:55:07.019] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[15dez.2025 20:55:07.020] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[15dez.2025 20:55:07.021] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[15dez.2025 20:55:07.021] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[15dez.2025 20:55:07.021] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\scope\AppData\Local\Temp (java.io.tmpdir)
+[15dez.2025 20:55:07.021] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[15dez.2025 20:55:07.021] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[15dez.2025 20:55:07.023] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[15dez.2025 20:55:07.023] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[15dez.2025 20:55:07.024] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[15dez.2025 20:55:07.024] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[15dez.2025 20:55:09.485] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 12 threads for parallel mod-loading
+[15dez.2025 20:55:09.493] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for fallingtree with entrypoints [fr.rakambda.fallingtree.neoforge.FallingTree]
+[15dez.2025 20:55:09.499] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler]
+[15dez.2025 20:55:09.501] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for jei with entrypoints [mezz.jei.neoforge.JustEnoughItems]
+[15dez.2025 20:55:09.519] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[15dez.2025 20:55:09.519] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[15dez.2025 20:55:09.524] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[15dez.2025 20:55:09.534] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[15dez.2025 20:55:09.537] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[15dez.2025 20:55:09.553] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fallingtree
+[15dez.2025 20:55:09.578] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[15dez.2025 20:55:09.578] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.581] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[15dez.2025 20:55:09.582] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[15dez.2025 20:55:09.582] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.584] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[15dez.2025 20:55:09.585] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.586] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[15dez.2025 20:55:09.586] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.589] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[15dez.2025 20:55:09.589] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.590] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[15dez.2025 20:55:09.590] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[15dez.2025 20:55:09.616] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[15dez.2025 20:55:09.616] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[15dez.2025 20:55:09.617] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7bae0b9f
+[15dez.2025 20:55:09.624] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[15dez.2025 20:55:09.624] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 24
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 24
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[15dez.2025 20:55:09.627] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[15dez.2025 20:55:09.628] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[15dez.2025 20:55:09.635] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[15dez.2025 20:55:09.635] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[15dez.2025 20:55:09.635] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[15dez.2025 20:55:09.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[15dez.2025 20:55:09.789] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[15dez.2025 20:55:09.799] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[15dez.2025 20:55:09.799] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-common.toml
+[15dez.2025 20:55:09.805] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-common.toml for changes
+[15dez.2025 20:55:09.809] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[15dez.2025 20:55:09.811] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 882.1 μs
+[15dez.2025 20:55:09.904] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[15dez.2025 20:55:11.901] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[15dez.2025 20:55:11.915] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[15dez.2025 20:55:11.917] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[15dez.2025 20:55:11.975] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 20:55:12.858] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[15dez.2025 20:55:12.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[15dez.2025 20:55:12.859] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[15dez.2025 20:55:12.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[15dez.2025 20:55:12.951] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.49.201.99:25565
+[15dez.2025 20:55:12.951] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "25.49.201.99"
+[15dez.2025 20:55:12.969] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 24
+[15dez.2025 20:55:12.980] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[15dez.2025 20:55:12.992] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[15dez.2025 20:55:12.992] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[15dez.2025 20:55:13.000] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[15dez.2025 20:55:13.038] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[15dez.2025 20:55:13.056] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 31456 (auto-detected)
+[15dez.2025 20:55:13.058] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
+[15dez.2025 20:55:13.058] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[15dez.2025 20:55:13.063] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[15dez.2025 20:55:13.063] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[15dez.2025 20:55:13.064] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: c8:7f:54:ff:fe:d0:ce:31 (auto-detected)
+[15dez.2025 20:55:13.082] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[15dez.2025 20:55:13.109] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[15dez.2025 20:55:13.111] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\jei-server.toml
+[15dez.2025 20:55:13.111] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\jei-server.toml for changes
+[15dez.2025 20:55:13.114] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[15dez.2025 20:55:13.114] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-server.toml
+[15dez.2025 20:55:13.115] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\minecraft\minecraft-servidor-01\server\config\neoforge-server.toml for changes
+[15dez.2025 20:55:13.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[15dez.2025 20:55:13.494] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[15dez.2025 20:55:13.507] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[15dez.2025 20:55:13.538] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 44 ms
+[15dez.2025 20:55:13.553] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.445s)! For help, type "help"
+[15dez.2025 20:55:13.593] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 5 language files for en_us
+[15dez.2025 20:55:13.599] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[15dez.2025 20:56:13.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[15dez.2025 20:56:13.577] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 20:56:21.600] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[15dez.2025 20:56:21.600] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[15dez.2025 20:56:21.602] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[15dez.2025 20:56:21.602] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[15dez.2025 20:56:21.602] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[15dez.2025 20:56:22.163] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
+[15dez.2025 20:56:22.340] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@7818a4d7 into net.minecraft.network.Connection@16d8ff3b
+[15dez.2025 20:56:23.743] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@737c5c14 into net.minecraft.network.Connection@16d8ff3b
+[15dez.2025 20:56:23.873] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:54868] logged in with entity id 69 at (18.5, 72.0, 101.5)
+[15dez.2025 20:56:23.892] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1461 recipes of the following types: [campfire_cooking, smoking, smelting, smithing, stonecutting, crafting, blasting]
+[15dez.2025 20:56:23.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
+[15dez.2025 21:01:23.638] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:06:23.608] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:11:23.603] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:16:23.603] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:21:23.600] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:26:23.598] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:31:23.594] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:36:23.596] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:41:23.598] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:41:42.808] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
+[15dez.2025 21:41:42.973] [Netty Server IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@6a6edb7d into net.minecraft.network.Connection@2f6c5854
+[15dez.2025 21:41:43.918] [Netty Server IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@1e09746c into net.minecraft.network.Connection@2f6c5854
+[15dez.2025 21:41:43.972] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:54537] logged in with entity id 8609 at (152.81822811071393, 64.0, 78.35906076872003)
+[15dez.2025 21:41:43.977] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1461 recipes of the following types: [campfire_cooking, smoking, smelting, smithing, stonecutting, crafting, blasting]
+[15dez.2025 21:41:43.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[15dez.2025 21:44:47.249] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:47.251] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:47.670] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:47.671] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.059] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.060] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.465] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.465] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.868] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:48.869] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:49.271] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:49.272] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:49.659] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:49.659] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.059] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.059] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.433] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.433] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=62, z=86}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.830] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=85}) doesn't have enough leaves around top most log
+[15dez.2025 21:44:50.830] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=62, z=85}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:56.320] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=68, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:56.322] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=68, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:56.832] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:56.834] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:57.984] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=68, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:45:57.985] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=68, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:46:23.609] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:47:07.122] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:07.123] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:07.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:07.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:08.328] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:08.328] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:09.966] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:09.966] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:10.333] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:10.334] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:10.772] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:10.773] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:11.160] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:11.160] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:11.610] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:11.610] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:12.215] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:12.215] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=182, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:12.620] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:12.620] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=67, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:13.010] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:13.010] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=181, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:13.379] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:13.379] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=180, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:14.622] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:14.622] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=179, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:15.817] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:15.817] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:16.317] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:16.317] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:16.719] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:16.720] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.122] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=177, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.122] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=177, y=66, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.573] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.573] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.927] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:17.927] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=176, y=66, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:18.528] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=177, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:18.528] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=177, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:18.932] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=178, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:47:18.932] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=178, y=66, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:50:31.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 was slain by Enderman
+[15dez.2025 21:51:23.623] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:51:54.220] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:54.220] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:54.610] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:54.611] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:55.119] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:55.120] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:55.522] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:55.523] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.019] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.020] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.424] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.424] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.812] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:51:56.813] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:05.212] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:05.213] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:06.767] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:06.768] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:07.171] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:07.172] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:07.573] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:07.573] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:09.172] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:09.172] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:14.021] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:14.022] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:14.473] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:14.473] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:15.962] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:15.962] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:17.174] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:17.174] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=72, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:18.311] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:18.312] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:19.769] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:19.769] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:22.473] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:22.473] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:23.170] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:23.170] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:23.712] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:23.712] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=73, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:27.514] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:27.514] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=72, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:27.918] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:27.918] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:28.323] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:28.323] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:28.710] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:28.710] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.114] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.114] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.516] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.516] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=87}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.917] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:29.917] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=88}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:30.411] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:30.411] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=90}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:30.814] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:30.814] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:31.311] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:31.311] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=195, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:31.711] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:31.711] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=196, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:32.114] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:32.114] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=71, z=91}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:36.260] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=70, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:36.260] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=197, y=70, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:43.616] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=70, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:52:43.616] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=194, y=70, z=89}) doesn't have enough leaves around top most log
+[15dez.2025 21:56:23.653] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 21:57:53.970] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:53.970] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:54.373] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:54.373] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:54.761] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:54.761] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=74}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.167] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.168] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.573] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.574] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.960] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:55.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:56.765] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:56.766] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.169] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.169] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=158, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.571] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.571] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:57.961] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:58.361] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:58.361] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:58.764] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:58.764] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=78}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:59.169] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:59.169] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:59.571] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:57:59.571] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:00.022] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:00.022] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:00.423] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:00.423] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=154, y=64, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:01.310] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:01.310] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:01.713] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:01.713] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=75}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.115] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.115] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=157, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.519] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.519] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=156, y=63, z=77}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.922] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 21:58:02.922] [Server thread/DEBUG] [fr.rakambda.fallingtree.common.tree.builder.TreeBuilder/]: Tree at BlockPosWrapper(raw=BlockPos{x=155, y=63, z=76}) doesn't have enough leaves around top most log
+[15dez.2025 22:01:23.619] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 22:06:19.376] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
+[15dez.2025 22:06:19.376] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
+[15dez.2025 22:06:21.473] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
+[15dez.2025 22:06:21.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[15dez.2025 22:06:23.574] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 22:06:33.110] [Server thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 279/6271 (4,45%) and 5 parsed for mixin
+[15dez.2025 22:06:33.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[15dez.2025 22:06:33.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[15dez.2025 22:06:33.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[15dez.2025 22:06:33.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[15dez.2025 22:06:33.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[15dez.2025 22:06:33.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[15dez.2025 22:06:33.144] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[15dez.2025 22:06:33.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15dez.2025 22:06:33.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15dez.2025 22:06:33.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15dez.2025 22:06:33.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15dez.2025 22:06:33.186] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[15dez.2025 22:06:33.189] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 6445f1ff
+[15dez.2025 22:06:33.191] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
