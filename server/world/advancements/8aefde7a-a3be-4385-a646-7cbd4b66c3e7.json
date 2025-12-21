@@ -2594,7 +2594,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2025-12-04 18:12:20 -0300"
+      "minecraft:cow": "2025-12-04 18:12:20 -0300",
+      "minecraft:sheep": "2025-12-21 00:22:09 -0300"
     },
     "done": false
   },
@@ -3288,57 +3289,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+  "minecraft:recipes/decorations/armor_stand": {
     "criteria": {
-      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-12-20 13:15:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab": {
-    "criteria": {
-      "has_purpur_block": "2025-12-20 13:10:11 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2025-12-20 13:15:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2025-12-20 13:10:11 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/popped_chorus_fruit": {
-    "criteria": {
-      "has_chorus_fruit": "2025-12-20 13:03:09 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2025-12-20 13:08:46 -0300"
+      "has_stone_slab": "2025-12-20 10:43:10 -0300"
     },
     "done": true
   },
@@ -3348,9 +3301,33 @@
     },
     "done": true
   },
-  "minecraft:end/elytra": {
+  "minecraft:recipes/misc/popped_chorus_fruit": {
     "criteria": {
-      "elytra": "2025-12-20 13:15:45 -0300"
+      "has_chorus_fruit": "2025-12-20 13:03:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-12-20 13:08:46 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2025-12-20 13:10:09 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2025-12-20 13:10:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2025-12-20 13:10:11 -0300"
     },
     "done": true
   },
@@ -3366,9 +3343,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/armor_stand": {
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
     "criteria": {
-      "has_stone_slab": "2025-12-20 10:43:10 -0300"
+      "has_purpur_block": "2025-12-20 13:10:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2025-12-20 13:10:11 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-12-20 13:15:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2025-12-20 13:15:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2025-12-20 13:15:21 -0300"
     },
     "done": true
   },
@@ -3378,21 +3391,87 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+  "minecraft:end/elytra": {
     "criteria": {
-      "has_purpur_block": "2025-12-20 13:10:11 -0300"
+      "elytra": "2025-12-20 13:15:45 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/shulker_box": {
+  "minecraft:recipes/misc/blue_dye": {
     "criteria": {
-      "has_shulker_shell": "2025-12-20 13:10:09 -0300"
+      "has_lapis_lazuli": "2025-12-20 23:43:32 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+  "minecraft:recipes/building_blocks/quartz_slab": {
     "criteria": {
-      "has_purpur_block": "2025-12-20 13:10:11 -0300"
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/lapis_block": {
+    "criteria": {
+      "has_lapis_lazuli": "2025-12-20 23:43:32 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2025-12-20 23:18:19 -0300"
     },
     "done": true
   },

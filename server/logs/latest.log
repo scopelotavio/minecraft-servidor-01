@@ -1,338 +1,154 @@
-[20dez.2025 10:25:58.596] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 252ms
-[20dez.2025 10:25:58.614] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[20dez.2025 10:25:58.615] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Users\pedro\OneDrive\Desktop\server\minecraft-servidor-01\server
-[20dez.2025 10:25:58.695] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 33ms
-[20dez.2025 10:25:58.696] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[20dez.2025 10:25:58.698] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[20dez.2025 10:25:58.700] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[20dez.2025 10:25:58.709] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[20dez.2025 10:25:58.732] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[20dez.2025 10:25:59.133] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[20dez.2025 10:25:59.136] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
-     Mod List:
-		Name Version (Mod Id)
-
-		FallingTree 1.21.10.1 (fallingtree)
-		Just Enough Items 26.2.0.27 (jei)
-		Minecraft 1.21.10 (minecraft)
-		NeoForge 21.10.63 (neoforge)
-[20dez.2025 10:25:59.302] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/pedro/OneDrive/Desktop/server/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[20dez.2025 10:25:59.354] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[20dez.2025 10:25:59.356] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[20dez.2025 10:25:59.483] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
- - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
- - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
- - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
- - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
- - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
- - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[20dez.2025 10:25:59.505] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 37ms
-[20dez.2025 10:26:00.886] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[20dez.2025 10:26:06.838] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[20dez.2025 10:26:07.218] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[20dez.2025 10:26:09.344] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[20dez.2025 10:26:09.361] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[20dez.2025 10:26:09.363] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[20dez.2025 10:26:10.100] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[20dez.2025 10:26:10.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[20dez.2025 10:26:10.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[20dez.2025 10:26:10.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[20dez.2025 10:26:10.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.46.98.193:25565
-[20dez.2025 10:26:10.371] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[20dez.2025 10:26:10.526] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[20dez.2025 10:26:10.999] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[20dez.2025 10:26:11.017] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[20dez.2025 10:26:11.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 45 ms
-[20dez.2025 10:26:11.056] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.573s)! For help, type "help"
-[20dez.2025 10:26:11.118] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[20dez.2025 10:26:37.920] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
-[20dez.2025 10:26:40.444] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:62608] logged in with entity id 95 at (152.44662013175173, 64.0, 76.22783196579773)
-[20dez.2025 10:26:40.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
-[20dez.2025 10:26:46.800] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2126ms or 42 ticks behind
-[20dez.2025 10:27:31.265] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
-[20dez.2025 10:27:32.816] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:59253] logged in with entity id 590 at (109.50589229077546, 66.0, 34.13497876207586)
-[20dez.2025 10:27:32.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
-[20dez.2025 10:27:54.708] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20dez.2025 10:32:19.637] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2036ms or 40 ticks behind
-[20dez.2025 10:33:04.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[20dez.2025 10:34:21.906] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2078ms or 41 ticks behind
-[20dez.2025 10:36:05.155] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[20dez.2025 10:36:29.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.776581008411654,0.005590671550208981,6.3820754958382935
-[20dez.2025 10:36:29.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.078045243898487,0.005588918830760292,6.62948081548852
-[20dez.2025 10:36:29.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.380283464765853,0.005584254768400854,6.877521328564512
-[20dez.2025 10:36:29.803] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.683218272457282,0.0055777898911486545,7.1261335157085455
-[20dez.2025 10:36:29.815] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.98678000827374,0.005570504854198077,7.375260209500183
-[20dez.2025 10:36:29.822] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.290905979387787,0.005563202444093918,7.624849959262406
-[20dez.2025 10:36:29.826] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.595539762256237,0.005556486176232056,7.874856459387104
-[20dez.2025 10:36:29.829] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.900630575691537,0.0055507605934437265,8.1252380348281
-[20dez.2025 10:36:29.832] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.206132716626087,0.005546247815871652,8.375957178044828
-[20dez.2025 10:36:29.838] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.51200505230014,0.005543014921393308,8.62698013225166
-[20dez.2025 10:36:29.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.818210563230934,0.005541007202374715,8.87827651634234
-[20dez.2025 10:36:29.841] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.124265982009376,0.005540083100868287,9.130354626324888
-[20dez.2025 10:36:29.849] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.429312653460272,0.005540047536207737,9.384129871080205
-[20dez.2025 10:36:29.852] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.73214434483225,0.005540681292309557,9.640803721454503
-[20dez.2025 10:36:29.855] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.031753515723949,0.005541765038486801,9.90126468760549
-[20dez.2025 10:36:29.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.32731605702844,0.005543097354454574,10.16614753240411
-[20dez.2025 10:36:29.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.61816972914852,0.0055445067795290015,10.43588626547161
-[20dez.2025 10:36:29.869] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.903799869352042,0.00554585839130084,10.710751982556033
-[20dez.2025 10:36:29.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.183824006370514,0.005547055741615736,10.990885222237864
-[20dez.2025 10:36:29.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.457972781367857,0.005548039151712203,11.276325573114704
-[20dez.2025 10:36:29.878] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.726074166346109,0.0055487814165857685,11.56703447576713
-[20dez.2025 10:36:29.889] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.988037960584734,0.005549281918753479,11.862914410873572
-[20dez.2025 10:36:29.892] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.243847421646308,0.005549560032051204,12.16382112447016
-[20dez.2025 10:36:29.896] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.493544444751478,0.005549648534142193,12.46957777482929
-[20dez.2025 10:36:29.897] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.737222259187092,0.005549587566122227,12.779983037839415
-[20dez.2025 10:36:29.905] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.97500827711184,0.005549419498017016,13.094823281977042
-[20dez.2025 10:36:29.908] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 15.207065194045413,0.005549184895052406,13.413873914532218
-[20dez.2025 10:36:29.911] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 15.434201664044224,0.0055489196404181484,13.73659369262073
-[20dez.2025 10:36:29.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.71190509567424,0.005584848878363857,6.450466244016937
-[20dez.2025 10:36:29.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.720185165668283,0.0055824214316544385,6.443122676923977
-[20dez.2025 10:36:29.943] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4171ms or 83 ticks behind
-[20dez.2025 10:36:49.311] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4388ms or 87 ticks behind
-[20dez.2025 10:37:09.090] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4818ms or 96 ticks behind
-[20dez.2025 10:37:14.147] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.5207476859130225,0.0,6.919568633380436
-[20dez.2025 10:37:14.153] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.808909936362966,0.0,7.19205523218227
-[20dez.2025 10:37:14.160] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.09257699131092,0.0,7.469047520484992
-[20dez.2025 10:37:14.173] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.3716991442613,0.0,7.7504711574741805
-[20dez.2025 10:37:14.180] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.646278784291667,0.0,8.036213340842153
-[20dez.2025 10:37:14.186] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.916357471417768,0.0,8.326135399919849
-[20dez.2025 10:37:14.208] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.182010099111665,0.0,8.620079159957982
-[20dez.2025 10:37:14.219] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.44333939469908,0.0,8.917872398033523
-[20dez.2025 10:37:14.230] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.700470761100803,0.0,9.219333500046048
-[20dez.2025 10:37:14.246] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.95413092172845,0.0,9.523892345719332
-[20dez.2025 10:37:14.251] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.20551378925461,0.0,9.830656681672963
-[20dez.2025 10:37:14.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.456152406824685,0.0,10.13844287815192
-[20dez.2025 10:37:14.256] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.707795942821178,0.0,10.445786343361931
-[20dez.2025 10:37:14.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.9622896598907,0.0,10.75094422251351
-[20dez.2025 10:37:14.286] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.220995211302125,0.0,11.05242023559589
-[20dez.2025 10:37:14.295] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.484883995952316,0.0,11.348957998144328
-[20dez.2025 10:37:14.306] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.754614697726254,0.0,11.639528025011316
-[20dez.2025 10:37:14.321] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.030599110935896,0.0,11.92330847142199
-[20dez.2025 10:37:14.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.313053358938191,0.0,12.199668328915322
-[20dez.2025 10:37:14.341] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.602044842119028,0.0,12.468141479723613
-[20dez.2025 10:37:14.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.897527264014286,0.0,12.728406368787489
-[20dez.2025 10:37:14.373] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.199366261408954,0.0,12.980272078335531
-[20dez.2025 10:37:14.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.526741995273767,0.0,6.907905474114557
-[20dez.2025 10:37:14.497] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.523698856408885,0.0,6.911958113969774
-[20dez.2025 10:37:14.576] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.520891657524828,0.0,6.915667109769629
-[20dez.2025 10:37:14.643] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.518305236812637,0.0,6.91905899164243
-[20dez.2025 10:37:14.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.515920267576632,0.0,6.922162799955288
-[20dez.2025 10:37:14.726] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.513725107639516,0.0,6.924999589741901
-[20dez.2025 10:37:14.750] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.511703575622562,0.0,6.92759343839424
-[20dez.2025 10:37:14.776] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.509843993522622,0.0,6.929963491680439
-[20dez.2025 10:37:14.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.790141357803293,0.0,7.210154613347186
-[20dez.2025 10:37:14.821] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.506885578991444,0.0,6.933817478620142
-[20dez.2025 10:37:14.835] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.784389217694354,0.0,7.217595179560362
-[20dez.2025 10:37:14.883] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.504316469858622,0.0,6.9370934784773794
-[20dez.2025 10:37:14.898] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.50304296777972,0.0,6.93864776091408
-[20dez.2025 10:37:14.913] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.501876606239193,0.0,6.94006428598459
-[20dez.2025 10:37:14.967] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.500806658142153,0.0,6.9413568163902255
-[20dez.2025 10:37:15.055] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.499826363653995,0.0,6.942535218403123
-[20dez.2025 10:37:15.084] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.770712853860232,0.0,7.234393125606232
-[20dez.2025 10:37:15.100] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.498245481589606,0.0,6.944466561546449
-[20dez.2025 10:37:15.129] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 7.497477912636384,0.0,6.94537175596264
-[20dez.2025 10:37:17.894] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 8.692967671829422,0.0,5.128374156351981
-[20dez.2025 10:37:17.898] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.072579694944352,0.0,5.23486879283297
-[20dez.2025 10:37:17.903] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 9.453687246718857,0.0,5.3372802263964445
-[20dez.2025 10:37:33.585] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 9512ms or 190 ticks behind
-[20dez.2025 10:37:52.334] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3760ms or 75 ticks behind
-[20dez.2025 10:37:54.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.113309089505833,0.0,-2.1315592507622796
-[20dez.2025 10:37:54.703] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.50888244911232,0.0,-2.1826718903438973
-[20dez.2025 10:37:54.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.904796471435134,0.0,-2.2315278753091548
-[20dez.2025 10:37:54.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.30102461155559,0.0,-2.2782457560389275
-[20dez.2025 10:37:54.800] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 11.697541671470617,0.0,-2.3229475143691047
-[20dez.2025 10:37:54.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.094324272623567,0.0,-2.3657505738208897
-[20dez.2025 10:37:54.860] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.49135047651896,0.0,-2.406772086893568
-[20dez.2025 10:37:54.885] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 12.88860017715831,0.0,-2.4461213101876638
-[20dez.2025 10:37:54.903] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.286054705448691,0.0,-2.4839042240589038
-[20dez.2025 10:37:54.916] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 13.683696722765148,0.0,-2.5202238623384687
-[20dez.2025 10:37:54.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.08151033377294,0.0,-2.555176779947999
-[20dez.2025 10:37:54.979] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.479480956999737,0.0,-2.588853701955088
-[20dez.2025 10:37:55.019] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 14.877595003459419,0.0,-2.6213439363898487
-[20dez.2025 10:37:55.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 15.275840205812074,0.0,-2.652727858614753
-[20dez.2025 10:37:55.126] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116397200062806,0.0,-2.1095148270201207
-[20dez.2025 10:37:55.191] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116439243619766,0.0,-2.1095764254260985
-[20dez.2025 10:37:55.289] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116476773621002,0.0,-2.109635686370723
-[20dez.2025 10:37:55.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116510245147424,0.0,-2.109692844065762
-[20dez.2025 10:37:55.347] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116540369520408,0.0,-2.1097442859899616
-[20dez.2025 10:37:55.434] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116567172256282,0.0,-2.10979440610123
-[20dez.2025 10:37:55.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116591294717978,0.0,-2.1098395142001323
-[20dez.2025 10:37:55.539] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116612695733693,0.0,-2.10988393386873
-[20dez.2025 10:37:55.635] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116631956647439,0.0,-2.1099239115694672
-[20dez.2025 10:37:55.670] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.515177232897827,0.0,-2.1418056259923333
-[20dez.2025 10:37:55.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116665415094303,0.0,-2.109985775201835
-[20dez.2025 10:37:55.714] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.51524049847228,0.0,-2.1419269897387494
-[20dez.2025 10:37:55.782] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116692241508417,0.0,-2.1100393253030347
-[20dez.2025 10:37:55.858] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.1167029294445,0.0,-2.1100714088507857
-[20dez.2025 10:37:55.903] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116712548586861,0.0,-2.1101002840429715
-[20dez.2025 10:37:55.971] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.515329433708757,0.0,-2.1421522012955165
-[20dez.2025 10:37:55.977] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116729553877917,0.0,-2.110142780125159
-[20dez.2025 10:37:56.005] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116736510576175,0.0,-2.110164518188242
-[20dez.2025 10:37:56.015] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.51537465228887,0.0,-2.1422780687835257
-[20dez.2025 10:37:56.029] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116748375609973,0.0,-2.1102020725127772
-[20dez.2025 10:37:56.038] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116753140935543,0.0,-2.110221703716377
-[20dez.2025 10:37:56.053] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116757429728409,0.0,-2.110239371799139
-[20dez.2025 10:37:56.059] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116761289642,0.0,-2.1102552730731645
-[20dez.2025 10:37:56.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116764763563992,0.0,-2.110269584219452
-[20dez.2025 10:37:56.080] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116767890093797,0.0,-2.1102824642507585
-[20dez.2025 10:37:56.094] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116770703970474,0.0,-2.110294056278576
-[20dez.2025 10:37:56.107] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116773236459494,0.0,-2.1103044891033846
-[20dez.2025 10:37:56.125] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116775515699487,0.0,-2.1103138786454565
-[20dez.2025 10:37:56.153] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116777567015447,0.0,-2.1103223292330995
-[20dez.2025 10:37:56.174] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Jungle Boat (vehicle of Bela7852) moved too quickly! 10.116779413199765,0.0,-2.110329934761751
-[20dez.2025 10:38:20.141] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 12819ms or 256 ticks behind
-[20dez.2025 10:38:42.646] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7522ms or 150 ticks behind
-[20dez.2025 10:39:04.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2094ms or 41 ticks behind
-[20dez.2025 10:39:24.392] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4716ms or 94 ticks behind
-[20dez.2025 10:39:42.305] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2929ms or 58 ticks behind
-[20dez.2025 10:40:03.862] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6589ms or 131 ticks behind
-[20dez.2025 10:40:58.413] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2134ms or 42 ticks behind
-[20dez.2025 10:41:20.657] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7284ms or 145 ticks behind
-[20dez.2025 10:44:11.463] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[20dez.2025 10:44:42.140] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
-[20dez.2025 10:45:31.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20dez.2025 10:46:19.810] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[20dez.2025 10:46:55.801] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2125ms or 42 ticks behind
-[20dez.2025 10:48:39.951] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2083ms or 41 ticks behind
-[20dez.2025 10:49:51.741] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2115ms or 42 ticks behind
-[20dez.2025 10:50:50.357] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2223ms or 44 ticks behind
-[20dez.2025 10:52:51.985] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2101ms or 42 ticks behind
-[20dez.2025 10:57:05.395] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2064ms or 41 ticks behind
-[20dez.2025 10:57:30.174] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[20dez.2025 10:59:02.607] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2081ms or 41 ticks behind
-[20dez.2025 10:59:36.406] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2403ms or 48 ticks behind
-[20dez.2025 11:00:03.450] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4527ms or 90 ticks behind
-[20dez.2025 11:00:20.996] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2574ms or 51 ticks behind
-[20dez.2025 11:02:17.764] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20dez.2025 11:06:47.166] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2031ms or 40 ticks behind
-[20dez.2025 11:07:06.992] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4852ms or 97 ticks behind
-[20dez.2025 11:07:28.348] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2023ms or 40 ticks behind
-[20dez.2025 11:07:46.902] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[20dez.2025 11:10:01.724] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
-[20dez.2025 11:11:24.463] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
-[20dez.2025 11:11:46.231] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2058ms or 41 ticks behind
-[20dez.2025 11:16:34.435] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
-[20dez.2025 11:17:03.751] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[20dez.2025 11:17:25.826] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2052ms or 41 ticks behind
-[20dez.2025 11:17:43.007] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2185ms or 43 ticks behind
-[20dez.2025 11:18:07.391] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2067ms or 41 ticks behind
-[20dez.2025 11:19:41.713] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[20dez.2025 11:19:44.405] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:51112] logged in with entity id 21149 at (18.87384159569717, 72.0, 100.77546177955284)
-[20dez.2025 11:19:44.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[20dez.2025 11:19:50.937] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[20dez.2025 11:20:32.058] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2048ms or 40 ticks behind
-[20dez.2025 11:21:12.645] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2193ms or 43 ticks behind
-[20dez.2025 11:21:30.245] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2672ms or 53 ticks behind
-[20dez.2025 11:21:47.717] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2494ms or 49 ticks behind
-[20dez.2025 11:22:15.223] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[20dez.2025 11:22:32.283] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[20dez.2025 11:23:26.559] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2027ms or 40 ticks behind
-[20dez.2025 11:23:56.915] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
-[20dez.2025 11:24:13.901] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[20dez.2025 11:24:32.866] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2037ms or 40 ticks behind
-[20dez.2025 11:25:13.450] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2121ms or 42 ticks behind
-[20dez.2025 11:28:08.233] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[20dez.2025 11:29:08.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2057ms or 41 ticks behind
-[20dez.2025 11:30:53.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
-[20dez.2025 11:33:23.567] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2313ms or 46 ticks behind
-[20dez.2025 11:33:23.753] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 moved too quickly! -1.75646556072698,1.0013359791121417,-10.144171803883353
-[20dez.2025 11:33:47.047] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
-[20dez.2025 11:35:22.687] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2221ms or 44 ticks behind
-[20dez.2025 11:36:59.360] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! -5.018700402940226,0.6709083839322858,-8.721246665709401
-[20dez.2025 11:37:00.274] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[20dez.2025 11:37:43.472] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2043ms or 40 ticks behind
-[20dez.2025 11:38:36.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3106ms or 62 ticks behind
-[20dez.2025 11:38:37.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> la ele
-[20dez.2025 11:39:01.995] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2222ms or 44 ticks behind
-[20dez.2025 11:39:04.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> vou reiniciar
-[20dez.2025 11:39:08.114] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
-[20dez.2025 11:39:08.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
-[20dez.2025 11:40:59.301] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2124ms or 42 ticks behind
-[20dez.2025 11:41:17.076] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
-[20dez.2025 11:43:13.031] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2053ms or 41 ticks behind
-[20dez.2025 11:43:30.870] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2847ms or 56 ticks behind
-[20dez.2025 11:43:52.949] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[20dez.2025 11:44:42.166] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[20dez.2025 11:45:15.724] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
-[20dez.2025 11:45:18.779] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2657ms or 53 ticks behind
-[20dez.2025 11:45:19.592] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:53283] logged in with entity id 30689 at (172.6867727805751, 66.0, 96.2761845925148)
-[20dez.2025 11:45:19.639] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
-[20dez.2025 11:47:05.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2071ms or 41 ticks behind
-[20dez.2025 11:49:01.329] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
-[20dez.2025 11:53:44.675] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! 6.919040841749322,-0.37673561378173304,-7.346172102045941
-[20dez.2025 11:56:01.286] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[20dez.2025 11:56:27.963] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2024ms or 40 ticks behind
-[20dez.2025 11:57:34.127] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! 7.207247881736066,0.0,7.194567786730509
-[20dez.2025 11:57:57.724] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! -5.877404688376856,0.7967356006687112,-8.353062949681139
-[20dez.2025 11:58:30.385] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! 7.838122988229173,0.42355929454303975,6.617521483527753
-[20dez.2025 12:04:29.624] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[20dez.2025 12:04:29.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[20dez.2025 12:07:01.929] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[20dez.2025 12:07:03.156] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:51063] logged in with entity id 35600 at (28.784634765544254, 64.0, 98.7204794040016)
-[20dez.2025 12:07:03.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[20dez.2025 12:08:52.051] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2119ms or 42 ticks behind
-[20dez.2025 12:09:13.355] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2732ms or 54 ticks behind
-[20dez.2025 12:09:55.153] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[20dez.2025 12:13:15.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2039ms or 40 ticks behind
-[20dez.2025 12:13:35.776] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5104ms or 102 ticks behind
-[20dez.2025 12:13:55.553] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4778ms or 95 ticks behind
-[20dez.2025 12:14:12.525] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
-[20dez.2025 12:15:22.137] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2096ms or 41 ticks behind
-[20dez.2025 12:17:55.428] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2047ms or 40 ticks behind
-[20dez.2025 12:18:01.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [Remote Getaway]
-[20dez.2025 12:18:05.310] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! -0.02136677847511237,-13.547479112772148,-0.016101386014383934
-[20dez.2025 12:18:10.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 fell out of the world
-[20dez.2025 12:18:17.087] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 6715ms or 134 ticks behind
-[20dez.2025 12:22:04.859] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2147ms or 42 ticks behind
-[20dez.2025 12:24:52.380] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
-[20dez.2025 12:25:09.836] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2464ms or 49 ticks behind
-[20dez.2025 12:25:28.592] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3770ms or 75 ticks behind
-[20dez.2025 12:25:38.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> pedroo
-[20dez.2025 12:25:48.442] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4870ms or 97 ticks behind
-[20dez.2025 12:26:07.849] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4425ms or 88 ticks behind
-[20dez.2025 12:26:27.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4550ms or 91 ticks behind
-[20dez.2025 12:26:45.108] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[20dez.2025 12:26:45.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[20dez.2025 12:29:20.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [Remote Getaway]
-[20dez.2025 12:29:27.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 fell out of the world
-[20dez.2025 12:29:59.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 fell out of the world
-[20dez.2025 12:31:36.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2314ms or 46 ticks behind
-[20dez.2025 12:32:01.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 fell out of the world
-[20dez.2025 12:33:39.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 fell out of the world
-[20dez.2025 12:36:55.694] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 was slain by Enderman
-[20dez.2025 12:41:24.559] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Scopel04 is ef121b35-b92d-4dcc-aa6f-24e46b44d548
-[20dez.2025 12:41:26.309] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Scopel04[/25.49.201.99:51240] logged in with entity id 47720 at (41.61849487563364, 68.0, 101.10746397899275)
-[20dez.2025 12:41:26.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 joined the game
-[20dez.2025 12:41:38.509] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Scopel04 lost connection: Disconnected
-[20dez.2025 12:41:38.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Scopel04 left the game
-[20dez.2025 12:55:54.940] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 fell out of the world
-[20dez.2025 12:55:55.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 fell out of the world
-[20dez.2025 12:58:06.092] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
-[20dez.2025 12:58:11.106] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved too quickly! 2.9877388669875984,1.044812420399012,9.796212390916253
-[20dez.2025 12:58:23.732] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2710ms or 54 ticks behind
-[20dez.2025 13:08:42.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [The City at the End of the Game]
-[20dez.2025 13:08:46.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has made the advancement [The City at the End of the Game]
-[20dez.2025 13:15:45.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 has reached the goal [Sky's the Limit]
-[20dez.2025 13:39:14.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has reached the goal [Sky's the Limit]
-[20dez.2025 13:50:45.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2237ms or 44 ticks behind
-[20dez.2025 13:51:03.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2827ms or 56 ticks behind
-[20dez.2025 13:51:26.067] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 moved too quickly! 0.45241260528564453,-22.19799280166626,3.261211395263672
-[20dez.2025 13:52:16.373] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2861ms or 57 ticks behind
-[20dez.2025 13:53:34.292] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2109ms or 42 ticks behind
-[20dez.2025 13:59:17.150] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2075ms or 41 ticks behind
-[20dez.2025 13:59:17.735] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
-[20dez.2025 13:59:17.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
-[20dez.2025 13:59:19.830] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
-[20dez.2025 13:59:19.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
-[20dez.2025 13:59:27.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[20dez.2025 13:59:27.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[20dez.2025 13:59:27.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[20dez.2025 13:59:27.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[20dez.2025 13:59:27.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[20dez.2025 13:59:27.422] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[20dez.2025 13:59:27.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20dez.2025 13:59:27.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20dez.2025 13:59:27.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20dez.2025 13:59:27.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20dez.2025 13:59:27.765] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 47a9b104
-[20dez.2025 13:59:27.774] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[21dez.2025 00:16:31.182] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:32.478] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:33.413] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:33.910] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:34.317] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:35.632] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:36.022] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:36.427] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:36.809] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:37.317] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:38.687] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:39.558] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:39.919] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:40.361] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:41.034] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:16:41.324] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:12.824] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:13.364] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:14.112] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:15.966] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:16.541] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:17.076] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:17.620] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:18.157] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:19.471] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:20.022] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:20.547] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:21.126] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:21.681] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:22.184] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:23.690] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:24.281] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:25.141] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:25.514] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:26.067] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:26.620] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:27.169] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:26:28.754] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:22.079] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:23.210] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:23.835] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:24.374] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:26.352] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:27.377] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:28.373] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:29.027] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:29.568] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:30.118] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:30.973] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:31.975] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:32.506] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:33.059] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:33.622] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:34.168] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:27:35.662] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:35.115] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:36.625] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:37.034] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:37.478] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:37.859] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:38.442] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:38.869] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:39.276] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:40.415] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:40.813] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:41.212] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:41.615] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:42.108] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:42.510] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:42.914] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:43.325] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:43.718] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:44.122] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:44.508] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:44.908] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:45.317] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:46.669] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:47.045] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:47.450] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:30:48.603] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:11.816] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:12.802] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:15.300] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:15.913] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:16.281] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:16.726] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:17.706] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:18.103] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:18.484] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:20.126] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:20.893] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:21.322] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:21.712] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:22.106] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:22.512] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:22.881] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:23.305] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:24.314] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:24.689] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:25.087] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:25.755] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:28.256] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:29.510] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:30.619] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:31.099] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:38.053] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:38.466] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:39.033] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:39.993] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:41.157] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:42.823] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:43.338] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:43.968] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:44.337] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:44.832] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:45.255] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:45.752] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:46.107] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:46.518] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:46.970] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:47.367] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:49.588] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:49.976] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:50.477] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:50.846] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:52.194] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:53.177] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:54.241] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:54.631] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:56.418] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:57.539] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:57.976] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:58.949] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:59.406] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:39:59.773] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:40:00.142] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:40:00.589] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:40:01.016] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[21dez.2025 00:48:48.237] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
+[21dez.2025 00:48:48.239] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[21dez.2025 02:03:58.751] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[21dez.2025 02:03:58.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[21dez.2025 02:04:06.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[21dez.2025 02:04:06.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[21dez.2025 02:04:06.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[21dez.2025 02:04:06.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[21dez.2025 02:04:06.775] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[21dez.2025 02:04:06.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[21dez.2025 02:04:06.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21dez.2025 02:04:06.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21dez.2025 02:04:06.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21dez.2025 02:04:06.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21dez.2025 02:04:06.903] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 221ce9e5
+[21dez.2025 02:04:06.905] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
