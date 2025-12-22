@@ -3493,9 +3493,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/tnt_minecart": {
+  "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
-      "has_minecart": "2025-12-21 14:42:57 -0300"
+      "has_the_recipe": "2025-12-21 14:41:21 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_the_recipe": "2025-12-21 14:42:22 -0300"
     },
     "done": true
   },
@@ -3508,6 +3514,12 @@
   "minecraft:recipes/transportation/detector_rail": {
     "criteria": {
       "has_rail": "2025-12-21 14:42:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-12-21 14:42:57 -0300"
     },
     "done": true
   },
@@ -3526,18 +3538,6 @@
   "minecraft:recipes/transportation/hopper_minecart": {
     "criteria": {
       "has_minecart": "2025-12-21 14:42:57 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_the_recipe": "2025-12-21 14:41:21 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/rail": {
-    "criteria": {
-      "has_the_recipe": "2025-12-21 14:42:22 -0300"
     },
     "done": true
   },
