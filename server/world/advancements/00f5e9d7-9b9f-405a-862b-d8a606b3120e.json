@@ -4676,12 +4676,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/leash_all_frog_variants": {
-    "criteria": {
-      "minecraft:temperate": "2025-12-21 22:39:47 -0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
     "criteria": {
       "has_bricks": "2025-12-21 22:25:55 -0300"
@@ -4711,6 +4705,12 @@
       "has_bricks": "2025-12-21 22:25:55 -0300"
     },
     "done": true
+  },
+  "minecraft:husbandry/leash_all_frog_variants": {
+    "criteria": {
+      "minecraft:temperate": "2025-12-21 22:39:47 -0300"
+    },
+    "done": false
   },
   "DataVersion": 4556
 }
