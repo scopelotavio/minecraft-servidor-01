@@ -8,6 +8,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-12-21 12:12:08 -0300",
+      "minecraft:snowy_slopes": "2025-12-23 19:41:54 -0300",
       "minecraft:forest": "2025-12-03 00:18:02 -0300",
       "minecraft:taiga": "2025-12-21 12:12:41 -0300",
       "minecraft:deep_ocean": "2025-12-04 03:38:10 -0300",
@@ -1254,6 +1255,7 @@
       "minecraft:shulker": "2025-12-20 13:10:21 -0300",
       "minecraft:enderman": "2025-12-03 22:02:52 -0300",
       "minecraft:silverfish": "2025-12-09 23:00:48 -0300",
+      "minecraft:magma_cube": "2025-12-23 20:45:48 -0300",
       "minecraft:spider": "2025-12-02 23:12:53 -0300",
       "minecraft:zombie": "2025-12-02 23:12:39 -0300",
       "minecraft:creeper": "2025-12-02 23:14:20 -0300",
@@ -4711,9 +4713,10 @@
   "minecraft:husbandry/leash_all_frog_variants": {
     "criteria": {
       "minecraft:warm": "2025-12-23 18:57:13 -0300",
-      "minecraft:temperate": "2025-12-21 22:39:47 -0300"
+      "minecraft:temperate": "2025-12-21 22:39:47 -0300",
+      "minecraft:cold": "2025-12-23 20:01:39 -0300"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/building_blocks/sandstone_slab": {
     "criteria": {
@@ -4781,30 +4784,6 @@
     },
     "done": true
   },
-  "minecraft:husbandry/tadpole_in_a_bucket": {
-    "criteria": {
-      "tadpole_bucket": "2025-12-23 18:33:35 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/sticky_piston": {
-    "criteria": {
-      "has_slime_ball": "2025-12-23 17:21:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2025-12-23 16:41:19 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/slime_block": {
-    "criteria": {
-      "has_slime_ball": "2025-12-23 17:21:39 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
       "has_glowstone_dust": "2025-12-23 16:40:24 -0300"
@@ -4814,6 +4793,60 @@
   "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
       "has_glowstone_dust": "2025-12-23 16:40:24 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2025-12-23 16:41:19 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/sticky_piston": {
+    "criteria": {
+      "has_slime_ball": "2025-12-23 17:21:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2025-12-23 17:21:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tadpole_in_a_bucket": {
+    "criteria": {
+      "tadpole_bucket": "2025-12-23 18:33:35 -0300"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/froglights": {
+    "criteria": {
+      "froglights": "2025-12-23 20:53:03 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-12-23 20:45:53 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2025-12-23 20:30:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2025-12-23 20:30:33 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2025-12-23 20:30:33 -0300"
     },
     "done": true
   },
