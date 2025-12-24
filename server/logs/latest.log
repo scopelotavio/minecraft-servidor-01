@@ -1,14 +1,14 @@
-[23dez.2025 19:36:55.084] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 106ms
-[23dez.2025 19:36:55.094] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[23dez.2025 19:36:55.095] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Minecraft\minecraft-servidor-01\server
-[23dez.2025 19:36:55.158] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 36ms
-[23dez.2025 19:36:55.160] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[23dez.2025 19:36:55.162] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[23dez.2025 19:36:55.164] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[23dez.2025 19:36:55.169] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[23dez.2025 19:36:55.186] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[23dez.2025 19:36:55.311] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[23dez.2025 19:36:55.313] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[24dez.2025 14:42:30.784] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 74ms
+[24dez.2025 14:42:30.792] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[24dez.2025 14:42:30.793] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Minecraft\minecraft-servidor-01\server
+[24dez.2025 14:42:30.837] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 18ms
+[24dez.2025 14:42:30.837] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[24dez.2025 14:42:30.838] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[24dez.2025 14:42:30.840] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[24dez.2025 14:42:30.844] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[24dez.2025 14:42:30.859] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[24dez.2025 14:42:30.980] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[24dez.2025 14:42:30.983] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -16,59 +16,215 @@
 		Just Enough Items 26.2.0.27 (jei)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[23dez.2025 19:36:55.412] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[23dez.2025 19:36:55.430] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[23dez.2025 19:36:55.439] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[23dez.2025 19:36:55.507] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[24dez.2025 14:42:31.086] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[24dez.2025 14:42:31.102] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[24dez.2025 14:42:31.102] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[24dez.2025 14:42:31.155] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[23dez.2025 19:36:55.519] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 20ms
-[23dez.2025 19:36:56.318] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[23dez.2025 19:36:59.953] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[23dez.2025 19:37:00.541] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[23dez.2025 19:37:02.003] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[23dez.2025 19:37:02.013] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[23dez.2025 19:37:02.015] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[23dez.2025 19:37:02.697] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[23dez.2025 19:37:02.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[23dez.2025 19:37:02.700] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[23dez.2025 19:37:02.702] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[23dez.2025 19:37:02.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.44.177.84:25565
-[23dez.2025 19:37:02.897] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[23dez.2025 19:37:02.963] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[23dez.2025 19:37:03.177] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[23dez.2025 19:37:03.246] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[23dez.2025 19:37:03.259] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 82 ms
-[23dez.2025 19:37:03.259] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.323s)! For help, type "help"
-[23dez.2025 19:37:03.280] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[23dez.2025 19:38:03.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[23dez.2025 19:39:09.520] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
-[23dez.2025 19:39:11.409] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:49955] logged in with entity id 418 at (110.85478157103442, 66.0, 33.07889427340987)
-[23dez.2025 19:39:11.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
-[23dez.2025 19:39:14.393] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[23dez.2025 20:01:39.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has made the advancement [When the Squad Hops into Town]
-[23dez.2025 20:34:36.938] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=11, y=71, z=-125} BlockPos{x=12, y=68, z=-126}
-[23dez.2025 20:34:37.137] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=12, y=70, z=-126} BlockPos{x=12, y=69, z=-125}
-[23dez.2025 20:34:37.185] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=12, y=70, z=-126} BlockPos{x=12, y=69, z=-125}
-[23dez.2025 20:34:37.246] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=12, y=70, z=-126} BlockPos{x=12, y=69, z=-125}
-[23dez.2025 20:34:37.292] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=12, y=70, z=-126} BlockPos{x=12, y=69, z=-125}
-[23dez.2025 20:53:03.303] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 has completed the challenge [With Our Powers Combined!]
-[23dez.2025 20:56:53.194] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/13481, l='ServerLevel[New World]', x=-33.53, y=88.00, z=-128.04] died, message: 'Villager burned to death'
-[23dez.2025 23:06:18.296] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
-[23dez.2025 23:06:18.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
-[23dez.2025 23:06:24.934] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[23dez.2025 23:06:24.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[23dez.2025 23:06:24.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[23dez.2025 23:06:24.937] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[23dez.2025 23:06:24.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[23dez.2025 23:06:24.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[23dez.2025 23:06:24.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23dez.2025 23:06:24.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23dez.2025 23:06:24.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23dez.2025 23:06:24.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23dez.2025 23:06:24.996] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 729eebf1
-[23dez.2025 23:06:24.999] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[24dez.2025 14:42:31.169] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 20ms
+[24dez.2025 14:42:31.893] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[24dez.2025 14:42:35.215] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[24dez.2025 14:42:35.478] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[24dez.2025 14:42:36.661] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[24dez.2025 14:42:36.671] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[24dez.2025 14:42:36.673] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[24dez.2025 14:42:37.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[24dez.2025 14:42:37.062] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[24dez.2025 14:42:37.063] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[24dez.2025 14:42:37.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[24dez.2025 14:42:37.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.44.177.84:25565
+[24dez.2025 14:42:37.197] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[24dez.2025 14:42:37.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[24dez.2025 14:42:37.520] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[24dez.2025 14:42:37.551] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[24dez.2025 14:42:37.572] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 51 ms
+[24dez.2025 14:42:37.577] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.335s)! For help, type "help"
+[24dez.2025 14:42:37.611] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[24dez.2025 14:43:37.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[24dez.2025 14:43:42.027] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 14:43:44.094] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:51366] logged in with entity id 480 at (109.8100513820853, 66.0, 29.473163912276842)
+[24dez.2025 14:43:44.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 14:43:46.511] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2049ms or 40 ticks behind
+[24dez.2025 14:50:07.232] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
+[24dez.2025 14:50:09.940] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:64220] logged in with entity id 1487 at (159.7806030808683, 64.0, 37.88733024673443)
+[24dez.2025 14:50:09.958] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[24dez.2025 14:52:56.847] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:57.162] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:57.924] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:58.374] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:58.742] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:59.156] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:52:59.664] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:00.066] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:00.557] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:01.064] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:01.465] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:01.872] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:02.288] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:03.072] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:03.561] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:03.951] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:04.365] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:04.936] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:06.256] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:06.602] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:08.134] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:53:09.203] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 14:57:12.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> olar
+[24dez.2025 14:57:14.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <pedropcm123> hallo
+[24dez.2025 14:57:14.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: <Bela7852> to disc
+[24dez.2025 15:01:37.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
+[24dez.2025 15:01:37.692] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[24dez.2025 15:09:00.271] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player pedropcm123 is 8aefde7a-a3be-4385-a646-7cbd4b66c3e7
+[24dez.2025 15:09:00.924] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: pedropcm123[/25.46.98.193:53882] logged in with entity id 7105 at (164.72687739765246, 64.0, 15.266722387731589)
+[24dez.2025 15:09:00.932] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 joined the game
+[24dez.2025 15:21:07.072] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 15:21:07.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 15:21:17.795] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 15:21:18.271] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:65152] logged in with entity id 10477 at (29.303090545462975, 22.0, -15.213708558849765)
+[24dez.2025 15:21:18.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 15:23:20.941] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 15:23:20.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 15:23:30.089] [User Authenticator #5/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 15:23:30.573] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:53153] logged in with entity id 11198 at (7.9989406785524535, 3.0, 4.391351350263808)
+[24dez.2025 15:23:30.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 15:23:43.926] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 15:23:43.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 15:23:52.092] [User Authenticator #6/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 15:23:52.553] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:53159] logged in with entity id 11390 at (-5.296875415521099, 4.0, 34.5886843282852)
+[24dez.2025 15:23:52.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 15:28:05.451] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 15:28:05.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 15:28:13.837] [User Authenticator #7/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 15:28:14.281] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:61112] logged in with entity id 12923 at (-5.8632537361692005, -10.0, 46.38742657750458)
+[24dez.2025 15:28:14.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 15:29:23.978] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 15:29:23.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 15:29:32.740] [User Authenticator #8/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[24dez.2025 15:29:33.139] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:50671] logged in with entity id 13411 at (20.69999998807907, -26.0, 20.7197376338616)
+[24dez.2025 15:29:33.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[24dez.2025 15:37:26.628] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[24dez.2025 15:37:43.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2361ms or 47 ticks behind
+[24dez.2025 15:48:26.066] [User Authenticator #9/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player maskeikooo is 36f5fca9-d60b-49ed-a79e-2d0860180e6f
+[24dez.2025 15:48:26.690] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maskeikooo[/25.40.245.120:63395] logged in with entity id 18077 at (133.9798758321135, 64.0, 30.2854991317869)
+[24dez.2025 15:48:26.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo joined the game
+[24dez.2025 15:50:10.365] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[24dez.2025 15:50:34.820] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[24dez.2025 15:50:54.885] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5074ms or 101 ticks behind
+[24dez.2025 15:51:17.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 7376ms or 147 ticks behind
+[24dez.2025 15:51:35.530] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3318ms or 66 ticks behind
+[24dez.2025 15:52:20.018] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[24dez.2025 15:52:43.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[24dez.2025 15:53:57.923] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 15:54:31.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2038ms or 40 ticks behind
+[24dez.2025 15:55:20.773] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2011ms or 40 ticks behind
+[24dez.2025 15:55:40.430] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2018ms or 40 ticks behind
+[24dez.2025 15:55:59.475] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[24dez.2025 15:56:35.167] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[24dez.2025 15:57:56.095] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2032ms or 40 ticks behind
+[24dez.2025 16:00:41.933] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[24dez.2025 16:01:09.966] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[24dez.2025 16:01:27.565] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2603ms or 52 ticks behind
+[24dez.2025 16:01:46.430] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3867ms or 77 ticks behind
+[24dez.2025 16:02:04.961] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3550ms or 71 ticks behind
+[24dez.2025 16:02:25.539] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 5577ms or 111 ticks behind
+[24dez.2025 16:02:55.762] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[24dez.2025 16:03:41.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[24dez.2025 16:04:18.314] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[24dez.2025 16:04:35.718] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2407ms or 48 ticks behind
+[24dez.2025 16:04:56.065] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[24dez.2025 16:05:16.473] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:05:35.082] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[24dez.2025 16:06:22.270] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[24dez.2025 16:06:39.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[24dez.2025 16:07:08.913] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[24dez.2025 16:07:39.716] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[24dez.2025 16:08:15.974] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[24dez.2025 16:08:33.644] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2682ms or 53 ticks behind
+[24dez.2025 16:08:50.749] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2137ms or 42 ticks behind
+[24dez.2025 16:09:10.670] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[24dez.2025 16:09:37.188] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2026ms or 40 ticks behind
+[24dez.2025 16:10:42.469] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
+[24dez.2025 16:11:33.666] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[24dez.2025 16:12:26.162] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[24dez.2025 16:12:43.372] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
+[24dez.2025 16:13:19.178] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
+[24dez.2025 16:14:25.868] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[24dez.2025 16:14:43.148] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2286ms or 45 ticks behind
+[24dez.2025 16:15:00.186] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2074ms or 41 ticks behind
+[24dez.2025 16:15:33.212] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2000ms or 40 ticks behind
+[24dez.2025 16:21:09.673] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:21:27.564] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[24dez.2025 16:21:48.725] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[24dez.2025 16:22:19.875] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[24dez.2025 16:22:37.253] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2391ms or 47 ticks behind
+[24dez.2025 16:22:56.622] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:23:22.422] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:24:12.266] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[24dez.2025 16:24:29.481] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2219ms or 44 ticks behind
+[24dez.2025 16:24:49.513] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[24dez.2025 16:25:06.707] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
+[24dez.2025 16:25:25.513] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[24dez.2025 16:26:33.272] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:27:57.977] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[24dez.2025 16:28:15.772] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
+[24dez.2025 16:28:33.592] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2830ms or 56 ticks behind
+[24dez.2025 16:29:51.267] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[24dez.2025 16:30:26.817] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2005ms or 40 ticks behind
+[24dez.2025 16:32:42.613] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2001ms or 40 ticks behind
+[24dez.2025 16:33:09.663] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 fell from a high place
+[24dez.2025 16:35:21.932] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2020ms or 40 ticks behind
+[24dez.2025 16:40:18.977] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[24dez.2025 16:40:38.818] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
+[24dez.2025 16:40:55.874] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
+[24dez.2025 17:08:52.426] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
+[24dez.2025 17:19:28.729] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
+[24dez.2025 17:31:41.056] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 moved wrongly!
+[24dez.2025 17:40:58.853] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo lost connection: Disconnected
+[24dez.2025 17:40:58.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo left the game
+[24dez.2025 17:44:02.220] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 moved wrongly!
+[24dez.2025 17:52:11.654] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: pedropcm123 lost connection: Disconnected
+[24dez.2025 17:52:11.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: pedropcm123 left the game
+[24dez.2025 18:15:37.605] [User Authenticator #10/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player maskeikooo is 36f5fca9-d60b-49ed-a79e-2d0860180e6f
+[24dez.2025 18:15:38.004] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maskeikooo[/25.40.245.120:50305] logged in with entity id 82152 at (-253.47287817100909, 76.0, -12.056036961971493)
+[24dez.2025 18:15:38.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo joined the game
+[24dez.2025 18:59:05.910] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:07.986] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:08.550] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:09.645] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:10.390] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:10.892] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:12.509] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:12.670] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:14.765] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:15.386] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:16.239] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:16.792] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:17.522] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:18.095] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:18.748] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:19.246] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:19.881] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:20.424] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 18:59:20.980] [Server thread/INFO] [fr.rakambda.fallingtree.common.tree.breaking.ToolDamageHandler/]: Tree reached max size of 100
+[24dez.2025 19:35:05.671] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[24dez.2025 19:35:05.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[24dez.2025 19:35:37.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo lost connection: Disconnected
+[24dez.2025 19:35:37.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo left the game
+[24dez.2025 19:35:42.150] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[24dez.2025 19:35:42.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[24dez.2025 19:35:42.153] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[24dez.2025 19:35:42.155] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[24dez.2025 19:35:42.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[24dez.2025 19:35:42.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[24dez.2025 19:35:42.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[24dez.2025 19:35:42.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[24dez.2025 19:35:42.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[24dez.2025 19:35:42.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[24dez.2025 19:35:42.298] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 56bb900c
+[24dez.2025 19:35:42.303] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
