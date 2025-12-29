@@ -8,9 +8,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2025-12-25 23:58:59 -0300",
+      "minecraft:old_growth_pine_taiga": "2025-12-28 15:10:30 -0300",
       "minecraft:forest": "2025-12-22 17:28:02 -0300",
       "minecraft:taiga": "2025-12-25 23:59:27 -0300",
       "minecraft:deep_ocean": "2025-12-25 23:58:35 -0300",
+      "minecraft:deep_cold_ocean": "2025-12-28 15:06:43 -0300",
       "minecraft:eroded_badlands": "2025-12-25 02:57:54 -0300",
       "minecraft:desert": "2025-12-22 19:39:30 -0300",
       "minecraft:windswept_forest": "2025-12-26 00:03:29 -0300",
@@ -566,16 +568,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:cave_spider": "2025-12-22 18:01:26 -0300",
+      "minecraft:pillager": "2025-12-28 14:34:12 -0300",
       "minecraft:skeleton": "2025-12-22 17:37:16 -0300",
       "minecraft:phantom": "2025-12-25 14:10:54 -0300",
+      "minecraft:witch": "2025-12-28 15:11:37 -0300",
+      "minecraft:husk": "2025-12-24 17:32:13 -0300",
+      "minecraft:shulker": "2025-12-25 16:00:46 -0300",
+      "minecraft:cave_spider": "2025-12-22 18:01:26 -0300",
+      "minecraft:creaking": "2025-12-28 14:24:15 -0300",
       "minecraft:enderman": "2025-12-22 18:56:10 -0300",
       "minecraft:spider": "2025-12-22 17:39:08 -0300",
       "minecraft:zombie": "2025-12-22 17:46:01 -0300",
       "minecraft:creeper": "2025-12-22 18:01:33 -0300",
-      "minecraft:drowned": "2025-12-25 04:11:41 -0300",
-      "minecraft:husk": "2025-12-24 17:32:13 -0300",
-      "minecraft:shulker": "2025-12-25 16:00:46 -0300"
+      "minecraft:drowned": "2025-12-25 04:11:41 -0300"
     },
     "done": false
   },
@@ -3561,6 +3566,96 @@
   "minecraft:recipes/misc/magenta_dye_from_lilac": {
     "criteria": {
       "has_lilac": "2025-12-26 15:40:25 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2025-12-28 00:33:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2025-12-28 00:33:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2025-12-28 00:33:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2025-12-28 00:33:07 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-12-28 02:30:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-12-28 02:30:01 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brown_dye": {
+    "criteria": {
+      "has_cocoa_beans": "2025-12-28 03:25:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cookie": {
+    "criteria": {
+      "has_cocoa": "2025-12-28 03:25:10 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/crafter": {
+    "criteria": {
+      "has_dropper": "2025-12-28 15:42:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-12-28 14:22:17 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2025-12-28 14:34:12 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/resin_brick": {
+    "criteria": {
+      "has_resin_clump": "2025-12-28 14:24:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/resin_block": {
+    "criteria": {
+      "has_resin_clump": "2025-12-28 14:24:22 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+    "criteria": {
+      "has_wildflowers": "2025-12-28 14:21:06 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+    "criteria": {
+      "has_open_eyeblossom": "2025-12-28 14:22:17 -0300"
     },
     "done": true
   },
