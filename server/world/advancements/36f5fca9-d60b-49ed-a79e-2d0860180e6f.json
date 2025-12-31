@@ -3617,9 +3617,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/crafter": {
+  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
     "criteria": {
-      "has_dropper": "2025-12-28 15:42:30 -0300"
+      "has_wildflowers": "2025-12-28 14:21:06 -0300"
     },
     "done": true
   },
@@ -3629,9 +3629,9 @@
     },
     "done": true
   },
-  "minecraft:adventure/voluntary_exile": {
+  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
     "criteria": {
-      "voluntary_exile": "2025-12-28 14:34:12 -0300"
+      "has_open_eyeblossom": "2025-12-28 14:22:17 -0300"
     },
     "done": true
   },
@@ -3647,15 +3647,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/yellow_dye_from_wildflowers": {
+  "minecraft:adventure/voluntary_exile": {
     "criteria": {
-      "has_wildflowers": "2025-12-28 14:21:06 -0300"
+      "voluntary_exile": "2025-12-28 14:34:12 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/misc/orange_dye_from_open_eyeblossom": {
+  "minecraft:recipes/redstone/crafter": {
     "criteria": {
-      "has_open_eyeblossom": "2025-12-28 14:22:17 -0300"
+      "has_dropper": "2025-12-28 15:42:30 -0300"
     },
     "done": true
   },
