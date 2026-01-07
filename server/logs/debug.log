@@ -1,49 +1,49 @@
-[30dez.2025 23:45:56.550] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 221ms
-[30dez.2025 23:45:56.568] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
-[30dez.2025 23:45:56.570] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Minecraft\minecraft-servidor-01\server
-[30dez.2025 23:45:56.574] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Minecraft\minecraft-servidor-01\server
-[30dez.2025 23:45:56.574] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\Minecraft\minecraft-servidor-01\server\.cache\jij
-[30dez.2025 23:45:56.576] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Minecraft\minecraft-servidor-01\server\mods
-[30dez.2025 23:45:56.577] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Minecraft\minecraft-servidor-01\server\config
-[30dez.2025 23:45:56.578] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Minecraft\minecraft-servidor-01\server\config\fml.toml
-[30dez.2025 23:45:56.617] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IDependencyLocator
-[30dez.2025 23:45:56.620] [ForkJoinPool.commonPool-worker-3/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
-[30dez.2025 23:45:56.624] [ForkJoinPool.commonPool-worker-3/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar with languages []
-[30dez.2025 23:45:56.624] [ForkJoinPool.commonPool-worker-1/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar with languages []
-[30dez.2025 23:45:56.627] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 19ms
-[30dez.2025 23:45:56.629] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
-[30dez.2025 23:45:56.631] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.634] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
-[30dez.2025 23:45:56.642] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
-[30dez.2025 23:45:56.644] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
-[30dez.2025 23:45:56.650] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
-[30dez.2025 23:45:56.652] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.652] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.652] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.652] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.653] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
-[30dez.2025 23:45:56.654] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.654] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.657] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
-[30dez.2025 23:45:56.657] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:56.669] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
-[30dez.2025 23:45:56.683] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar
-[30dez.2025 23:45:56.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecraft-server-patched-21.10.63.jar with {minecraft} mods - versions {1.21.10}
-[30dez.2025 23:45:56.710] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=null]]
-[30dez.2025 23:45:56.712] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar
-[30dez.2025 23:45:56.716] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.63-universal.jar with {neoforge} mods - versions {21.10.63}
-[30dez.2025 23:45:56.716] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
-[30dez.2025 23:45:56.717] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
-[30dez.2025 23:45:56.730] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar
-[30dez.2025 23:45:56.734] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FallingTree-1.21.10-1.21.10.1.jar with {fallingtree} mods - versions {1.21.10.1}
-[30dez.2025 23:45:56.734] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
-[30dez.2025 23:45:56.735] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar
-[30dez.2025 23:45:56.736] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.10-neoforge-26.2.0.27.jar with {jei} mods - versions {26.2.0.27}
-[30dez.2025 23:45:56.736] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
-[30dez.2025 23:45:56.832] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
-[30dez.2025 23:45:56.834] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.63.jar with languages []
-[30dez.2025 23:45:56.872] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[30dez.2025 23:45:56.874] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+[04jan.2026 22:23:49.527] [main/INFO] [net.neoforged.fml.startup.Entrypoint/]: JVM Uptime at startup: 367ms
+[04jan.2026 22:23:49.537] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Starting FancyModLoader version 10.0.32 (DEDICATED_SERVER in PROD)
+[04jan.2026 22:23:49.540] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Game directory: C:\Minecraft\minecraft-servidor-01\server
+[04jan.2026 22:23:49.545] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is C:\Minecraft\minecraft-servidor-01\server
+[04jan.2026 22:23:49.545] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path JIJ_CACHEDIR is C:\Minecraft\minecraft-servidor-01\server\.cache\jij
+[04jan.2026 22:23:49.545] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is C:\Minecraft\minecraft-servidor-01\server\mods
+[04jan.2026 22:23:49.547] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is C:\Minecraft\minecraft-servidor-01\server\config
+[04jan.2026 22:23:49.547] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is C:\Minecraft\minecraft-servidor-01\server\config\fml.toml
+[04jan.2026 22:23:49.580] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar contains early service net.neoforged.neoforgespi.locating.IModFileReader
+[04jan.2026 22:23:49.582] [ForkJoinPool.commonPool-worker-12/DEBUG] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar contains early service net.neoforged.neoforgespi.earlywindow.ImmediateWindowProvider
+[04jan.2026 22:23:49.588] [ForkJoinPool.commonPool-worker-12/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\earlydisplay\10.0.32\earlydisplay-10.0.32.jar with languages []
+[04jan.2026 22:23:49.588] [ForkJoinPool.commonPool-worker-4/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\fancymodloader\loader\10.0.32\loader-10.0.32.jar with languages []
+[04jan.2026 22:23:49.590] [main/INFO] [net.neoforged.fml.loading.EarlyServiceDiscovery/]: Found 2 early service jars (out of 75) in 18ms
+[04jan.2026 22:23:49.591] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Early Services:
+[04jan.2026 22:23:49.592] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.594] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - libraries/net/neoforged/fancymodloader/earlydisplay/10.0.32/earlydisplay-10.0.32.jar
+[04jan.2026 22:23:49.599] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 0 implementations of GraphicsBootstrapper:
+[04jan.2026 22:23:49.600] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: Not loading early display in headless mode.
+[04jan.2026 22:23:49.604] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[04jan.2026 22:23:49.606] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.GameLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.606] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.606] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.InDevJarLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.607] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[04jan.2026 22:23:49.608] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.609] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.611] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[04jan.2026 22:23:49.611] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.618] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.GameLocator/]: Failed to find common Minecraft classes and resources on the classpath. Assuming we're launching production.
+[04jan.2026 22:23:49.625] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar
+[04jan.2026 22:23:49.639] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file minecraft-server-patched-21.10.63.jar with {minecraft} mods - versions {1.21.10}
+[04jan.2026 22:23:49.641] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\minecraft-server-patched\21.10.63\minecraft-server-patched-21.10.63.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=null]]
+[04jan.2026 22:23:49.642] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar
+[04jan.2026 22:23:49.644] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.10.63-universal.jar with {neoforge} mods - versions {21.10.63}
+[04jan.2026 22:23:49.644] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file libraries\net\neoforged\neoforge\21.10.63\neoforge-21.10.63-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[04jan.2026 22:23:49.645] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[], behaviorVersion=null]
+[04jan.2026 22:23:49.660] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar
+[04jan.2026 22:23:49.665] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file FallingTree-1.21.10-1.21.10.1.jar with {fallingtree} mods - versions {1.21.10.1}
+[04jan.2026 22:23:49.665] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\mods\FallingTree-1.21.10-1.21.10.1.jar with languages [LanguageSpec[languageName=null, acceptedVersions=null]]
+[04jan.2026 22:23:49.665] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate C:\Minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar
+[04jan.2026 22:23:49.666] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file jei-1.21.10-neoforge-26.2.0.27.jar with {jei} mods - versions {26.2.0.27}
+[04jan.2026 22:23:49.666] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\mods\jei-1.21.10-neoforge-26.2.0.27.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[04jan.2026 22:23:49.754] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\.cache\jij\9c617719248f8b89847348fc7ea5e705739c147ae5e172551264d225bc9f2507\mixinextras-neoforge-0.5.0.jar with languages []
+[04jan.2026 22:23:49.756] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file C:\Minecraft\minecraft-servidor-01\server\.cache\jij\51629231fe2baaddd60d570ef06ada2b2f1fe8a34133e63afdd748b9ef93f9f1\net.neoforged.neoforge-coremods-21.10.63.jar with languages []
+[04jan.2026 22:23:49.779] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[04jan.2026 22:23:49.782] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
      Mod List:
 		Name Version (Mod Id)
 
@@ -51,244 +51,552 @@
 		Just Enough Items 26.2.0.27 (jei)
 		Minecraft 1.21.10 (minecraft)
 		NeoForge 21.10.63 (neoforge)
-[30dez.2025 23:45:56.879] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
-[30dez.2025 23:45:56.879] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
-[30dez.2025 23:45:56.879] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
-[30dez.2025 23:45:56.882] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
-[30dez.2025 23:45:56.883] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
-[30dez.2025 23:45:56.978] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
-[30dez.2025 23:45:56.993] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
-[30dez.2025 23:45:56.993] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
-[30dez.2025 23:45:56.995] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[30dez.2025 23:45:56.995] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[30dez.2025 23:45:56.995] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
-[30dez.2025 23:45:56.995] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
-[30dez.2025 23:45:56.996] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:56.996] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:56.996] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
-[30dez.2025 23:45:56.997] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[30dez.2025 23:45:57.002] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
-[30dez.2025 23:45:57.002] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.002] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.003] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
-[30dez.2025 23:45:57.004] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
-[30dez.2025 23:45:57.007] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/neoforge.accesstransformer.cfg in jar(mods/FallingTree-1.21.10-1.21.10.1.jar)
-[30dez.2025 23:45:57.014] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
-[30dez.2025 23:45:57.026] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
-[30dez.2025 23:45:57.031] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar)
-[30dez.2025 23:45:57.036] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of ClassProcessor:
-[30dez.2025 23:45:57.036] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.038] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
-[30dez.2025 23:45:57.039] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
-[30dez.2025 23:45:57.039] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
-[30dez.2025 23:45:57.066] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
+[04jan.2026 22:23:49.786] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[04jan.2026 22:23:49.787] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[04jan.2026 22:23:49.787] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[04jan.2026 22:23:49.788] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 4 mod requirements (4 mandatory, 0 optional)
+[04jan.2026 22:23:49.789] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[04jan.2026 22:23:49.908] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Minecraft/minecraft-servidor-01/server/libraries/net/fabricmc/sponge-mixin/0.16.5+mixin.0.8.7/sponge-mixin-0.16.5+mixin.0.8.7.jar Service=FML Env=SERVER
+[04jan.2026 22:23:49.932] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[04jan.2026 22:23:49.933] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ContainerHandleVirtual(fml:18c85)
+[04jan.2026 22:23:49.934] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[04jan.2026 22:23:49.935] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[04jan.2026 22:23:49.935] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ContainerHandleVirtual(fml:18c85)
+[04jan.2026 22:23:49.935] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ContainerHandleVirtual(fml:18c85)
+[04jan.2026 22:23:49.936] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:49.936] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:49.937] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Loading FML Plugins:
+[04jan.2026 22:23:49.938] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]:  - ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[04jan.2026 22:23:49.943] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModLanguageLoader:
+[04jan.2026 22:23:49.943] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.943] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.944] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 10.0
+[04jan.2026 22:23:49.946] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 10.0
+[04jan.2026 22:23:49.948] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/neoforge.accesstransformer.cfg in jar(mods/FallingTree-1.21.10-1.21.10.1.jar)
+[04jan.2026 22:23:49.955] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
+[04jan.2026 22:23:49.970] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformergenerated.cfg in jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar)
+[04jan.2026 22:23:49.979] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/]: Adding Access Transformer META-INF/accesstransformer.cfg in jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar)
+[04jan.2026 22:23:49.985] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of ClassProcessor:
+[04jan.2026 22:23:49.986] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.AccessTransformerService from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.986] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.enumextension.RuntimeEnumExtender from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.986] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.common.asm.SimpleProcessorsGroup from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.986] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	[built-in] net.neoforged.fml.loading.mixin.FMLMixinClassProcessor from libraries/net/neoforged/fancymodloader/loader/10.0.32/loader-10.0.32.jar
+[04jan.2026 22:23:49.988] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ClassProcessorProvider:
+[04jan.2026 22:23:49.988] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from ~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar
+[04jan.2026 22:23:50.020] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Building game content classloader:
  - fallingtree (jar(mods/FallingTree-1.21.10-1.21.10.1.jar))
  - jei (jar(mods/jei-1.21.10-neoforge-26.2.0.27.jar))
  - minecraft (jar(~libraries/net/neoforged/minecraft-server-patched/21.10.63/minecraft-server-patched-21.10.63.jar))
  - mixinextras.neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar))
  - neoforge (jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar))
  - net.neoforged.fml.generated (empty(VirtualJar/net.neoforged.fml.generated))
-[30dez.2025 23:45:57.086] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 30ms
-[30dez.2025 23:45:57.132] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:57.133] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:57.133] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.133] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.133] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.134] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.134] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.134] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
-[30dez.2025 23:45:57.134] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.135] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.136] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[30dez.2025 23:45:57.136] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.138] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[30dez.2025 23:45:57.138] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
-[30dez.2025 23:45:57.138] [main/DEBUG] [mixin/]: inject() running with 3 agents
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[30dez.2025 23:45:57.139] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
-[30dez.2025 23:45:57.144] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
-[30dez.2025 23:45:57.145] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
-[30dez.2025 23:45:57.147] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
-[30dez.2025 23:45:57.179] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
-[30dez.2025 23:45:57.200] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
-[30dez.2025 23:45:57.201] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
-[30dez.2025 23:45:57.201] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
-[30dez.2025 23:45:57.202] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
-[30dez.2025 23:45:57.203] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
-[30dez.2025 23:45:57.204] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
-[30dez.2025 23:45:57.211] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
-[30dez.2025 23:45:57.265] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
-[30dez.2025 23:45:57.276] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
-[30dez.2025 23:45:57.277] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
-[30dez.2025 23:45:57.277] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
-[30dez.2025 23:45:57.921] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
-[30dez.2025 23:45:57.924] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
-[30dez.2025 23:45:57.925] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
-[30dez.2025 23:45:57.925] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
-[30dez.2025 23:45:57.932] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
-[30dez.2025 23:45:58.502] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
-[30dez.2025 23:45:59.379] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
-[30dez.2025 23:45:59.379] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 25
-[30dez.2025 23:45:59.380] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
-[30dez.2025 23:45:59.380] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
-[30dez.2025 23:45:59.380] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
-[30dez.2025 23:45:59.380] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
-[30dez.2025 23:45:59.381] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
-[30dez.2025 23:45:59.382] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
-[30dez.2025 23:45:59.382] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
-[30dez.2025 23:45:59.382] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Isabe\AppData\Local\Temp (java.io.tmpdir)
-[30dez.2025 23:45:59.382] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[30dez.2025 23:45:59.383] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
-[30dez.2025 23:45:59.383] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
-[30dez.2025 23:45:59.383] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[30dez.2025 23:45:59.384] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
-[30dez.2025 23:45:59.384] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
-[30dez.2025 23:46:03.532] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
-[30dez.2025 23:46:03.544] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for fallingtree with entrypoints [fr.rakambda.fallingtree.neoforge.FallingTree]
-[30dez.2025 23:46:03.550] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler]
-[30dez.2025 23:46:03.553] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for jei with entrypoints [mezz.jei.neoforge.JustEnoughItems]
-[30dez.2025 23:46:03.577] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
-[30dez.2025 23:46:03.580] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
-[30dez.2025 23:46:03.583] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
-[30dez.2025 23:46:03.607] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
-[30dez.2025 23:46:03.609] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
-[30dez.2025 23:46:03.626] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fallingtree
-[30dez.2025 23:46:03.652] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
-[30dez.2025 23:46:03.654] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.658] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
-[30dez.2025 23:46:03.659] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
-[30dez.2025 23:46:03.660] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.662] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
-[30dez.2025 23:46:03.663] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.663] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
-[30dez.2025 23:46:03.664] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.666] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
-[30dez.2025 23:46:03.667] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.668] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[30dez.2025 23:46:03.670] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
-[30dez.2025 23:46:03.687] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
-[30dez.2025 23:46:03.687] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
-[30dez.2025 23:46:03.688] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@74d087d
-[30dez.2025 23:46:03.698] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[30dez.2025 23:46:03.698] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[30dez.2025 23:46:03.701] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
-[30dez.2025 23:46:03.702] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
-[30dez.2025 23:46:03.703] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[30dez.2025 23:46:03.703] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
-[30dez.2025 23:46:03.715] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
-[30dez.2025 23:46:03.715] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
-[30dez.2025 23:46:03.716] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[30dez.2025 23:46:03.722] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
-[30dez.2025 23:46:03.948] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
-[30dez.2025 23:46:03.960] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
-[30dez.2025 23:46:03.960] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-common.toml
-[30dez.2025 23:46:03.966] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-common.toml for changes
-[30dez.2025 23:46:03.971] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
-[30dez.2025 23:46:03.973] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 1.455 ms
-[30dez.2025 23:46:04.102] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[30dez.2025 23:46:08.082] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
-[30dez.2025 23:46:08.102] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
-[30dez.2025 23:46:08.106] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
-[30dez.2025 23:46:08.198] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[30dez.2025 23:46:09.388] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
-[30dez.2025 23:46:09.389] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[30dez.2025 23:46:09.392] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[30dez.2025 23:46:09.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[30dez.2025 23:46:09.485] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.44.177.84:25565
-[30dez.2025 23:46:09.493] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "25.44.177.84"
-[30dez.2025 23:46:09.510] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
-[30dez.2025 23:46:09.518] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
-[30dez.2025 23:46:09.527] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
-[30dez.2025 23:46:09.527] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
-[30dez.2025 23:46:09.534] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
-[30dez.2025 23:46:09.581] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
-[30dez.2025 23:46:09.596] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 34720 (auto-detected)
-[30dez.2025 23:46:09.598] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
-[30dez.2025 23:46:09.598] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
-[30dez.2025 23:46:09.601] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
-[30dez.2025 23:46:09.603] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
-[30dez.2025 23:46:09.604] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: fc:4c:ea:ff:fe:d2:08:8f (auto-detected)
-[30dez.2025 23:46:09.620] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
-[30dez.2025 23:46:09.645] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
-[30dez.2025 23:46:09.646] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\jei-server.toml
-[30dez.2025 23:46:09.647] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\jei-server.toml for changes
-[30dez.2025 23:46:09.650] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
-[30dez.2025 23:46:09.650] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-server.toml
-[30dez.2025 23:46:09.651] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-server.toml for changes
-[30dez.2025 23:46:09.689] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[30dez.2025 23:46:10.086] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
-[30dez.2025 23:46:10.118] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
-[30dez.2025 23:46:10.144] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 58 ms
-[30dez.2025 23:46:10.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.534s)! For help, type "help"
-[30dez.2025 23:46:10.201] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 5 language files for en_us
-[30dez.2025 23:46:10.205] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
-[30dez.2025 23:47:10.190] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[30dez.2025 23:47:10.238] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[30dez.2025 23:47:19.729] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
-[30dez.2025 23:47:19.729] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
-[30dez.2025 23:47:19.730] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
-[30dez.2025 23:47:19.730] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
-[30dez.2025 23:47:19.730] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
-[30dez.2025 23:47:20.428] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player maskeikooo is 36f5fca9-d60b-49ed-a79e-2d0860180e6f
-[30dez.2025 23:47:20.617] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@4a299130 into net.minecraft.network.Connection@6388f6c3
-[30dez.2025 23:47:22.081] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@76b7f042 into net.minecraft.network.Connection@6388f6c3
-[30dez.2025 23:47:22.083] [Server thread/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@13c404f2 into net.minecraft.network.Connection@6388f6c3
-[30dez.2025 23:47:22.216] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maskeikooo[/25.40.245.120:52621] logged in with entity id 234 at (165.47845922300917, 71.0, 44.18713531547959)
-[30dez.2025 23:47:22.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo joined the game
-[30dez.2025 23:47:25.294] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[30dez.2025 23:52:24.115] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[30dez.2025 23:57:24.006] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:02:24.014] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:06:16.459] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -9.501756331008949,1.1854232914413245,-15.51019237082673
-[31dez.2025 00:07:23.987] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:07:37.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -3.5715345459626064,-1.0796781515597047,18.264620496667135
-[31dez.2025 00:12:24.038] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:17:23.998] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:22:24.009] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:26:53.351] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=68, z=43} BlockPos{x=73, y=68, z=43}
-[31dez.2025 00:26:53.409] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=74, y=68, z=43} BlockPos{x=73, y=68, z=43}
-[31dez.2025 00:27:23.953] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:32:23.992] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:34:16.641] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 11.946196994998246,4.478228756945981,-12.343950629029834
-[31dez.2025 00:37:24.009] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:42:23.989] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 00:46:00.324] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo lost connection: Disconnected
-[31dez.2025 00:46:00.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo left the game
-[31dez.2025 00:47:00.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
-[31dez.2025 00:47:00.300] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 13:40:34.614] [Server thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 278/6439 (4,32%) and 5 parsed for mixin
-[31dez.2025 13:40:34.621] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[31dez.2025 13:40:34.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[31dez.2025 13:40:34.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[31dez.2025 13:40:34.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[31dez.2025 13:40:34.708] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[31dez.2025 13:40:34.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[31dez.2025 13:40:34.744] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
-[31dez.2025 13:40:34.754] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[31dez.2025 13:40:34.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[31dez.2025 13:40:34.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[31dez.2025 13:40:34.760] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[31dez.2025 13:40:34.822] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
-[31dez.2025 13:40:34.829] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 6ba4cc57
-[31dez.2025 13:40:34.834] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
+[04jan.2026 22:23:50.038] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Built game content classloader in 29ms
+[04jan.2026 22:23:50.079] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:50.079] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:50.080] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.080] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.080] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.080] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.080] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.082] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)
+[04jan.2026 22:23:50.082] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[04jan.2026 22:23:50.082] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Adding agents for Mixin Container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Adding mixin platform agents for container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[04jan.2026 22:23:50.083] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.086] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[04jan.2026 22:23:50.086] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)
+[04jan.2026 22:23:50.086] [main/DEBUG] [mixin/]: inject() running with 3 agents
+[04jan.2026 22:23:50.086] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:50.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ContainerHandleVirtual(fml:18c85)]
+[04jan.2026 22:23:50.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[04jan.2026 22:23:50.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > net.neoforged.neoforge-coremods-21.10.63.jar)]
+[04jan.2026 22:23:50.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[04jan.2026 22:23:50.087] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar) > jar(~libraries/net/neoforged/neoforge/21.10.63/neoforge-21.10.63-universal.jar > mixinextras-neoforge-0.5.0.jar)]
+[04jan.2026 22:23:50.092] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[04jan.2026 22:23:50.092] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[04jan.2026 22:23:50.095] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[04jan.2026 22:23:50.136] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0) is taking over from null
+[04jan.2026 22:23:50.160] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[04jan.2026 22:23:50.161] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[04jan.2026 22:23:50.162] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[04jan.2026 22:23:50.164] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[04jan.2026 22:23:50.165] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[04jan.2026 22:23:50.166] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[04jan.2026 22:23:50.174] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[04jan.2026 22:23:50.228] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[04jan.2026 22:23:50.258] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[04jan.2026 22:23:50.259] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[04jan.2026 22:23:50.260] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[04jan.2026 22:23:51.013] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[04jan.2026 22:23:51.016] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[04jan.2026 22:23:51.016] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[04jan.2026 22:23:51.016] [main/DEBUG] [mixin/]: Registering new injector for @ExpressionInjectorWrapper with com.llamalad7.mixinextras.expression.impl.wrapper.ExpressionInjectorWrapperInjectionInfo
+[04jan.2026 22:23:51.024] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[04jan.2026 22:23:51.703] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[04jan.2026 22:23:52.763] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[04jan.2026 22:23:52.763] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 25
+[04jan.2026 22:23:52.764] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[04jan.2026 22:23:52.765] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe base methods: all available
+[04jan.2026 22:23:52.765] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[04jan.2026 22:23:52.765] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[04jan.2026 22:23:52.766] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[04jan.2026 22:23:52.767] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[04jan.2026 22:23:52.767] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[04jan.2026 22:23:52.768] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: C:\Users\Isabe\AppData\Local\Temp (java.io.tmpdir)
+[04jan.2026 22:23:52.768] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[04jan.2026 22:23:52.769] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: Platform: Windows
+[04jan.2026 22:23:52.769] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[04jan.2026 22:23:52.769] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[04jan.2026 22:23:52.770] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[04jan.2026 22:23:52.770] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[04jan.2026 22:23:54.568] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 16 threads for parallel mod-loading
+[04jan.2026 22:23:54.579] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for fallingtree with entrypoints [fr.rakambda.fallingtree.neoforge.FallingTree]
+[04jan.2026 22:23:54.583] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for neoforge with entrypoints [net.neoforged.neoforge.common.NeoForgeMod, net.neoforged.neoforge.common.OnlyInWarningsHandler]
+[04jan.2026 22:23:54.585] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for jei with entrypoints [mezz.jei.neoforge.JustEnoughItems]
+[04jan.2026 22:23:54.598] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.10.63, for MC 1.21.10
+[04jan.2026 22:23:54.599] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file jei-server.toml for jei tracking
+[04jan.2026 22:23:54.603] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for jei
+[04jan.2026 22:23:54.612] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[04jan.2026 22:23:54.613] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[04jan.2026 22:23:54.621] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fallingtree
+[04jan.2026 22:23:54.639] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[04jan.2026 22:23:54.640] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentInternals for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.641] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onLivingConvert(net.neoforged.neoforge.event.entity.living.LivingConversionEvent$Post) to the game event bus
+[04jan.2026 22:23:54.642] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentInternals.onPlayerClone(net.neoforged.neoforge.event.entity.player.PlayerEvent$Clone) to the game event bus
+[04jan.2026 22:23:54.643] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.attachment.AttachmentSync for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.644] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.attachment.AttachmentSync.onChunkSent(net.neoforged.neoforge.event.level.ChunkWatchEvent$Sent) to the game event bus
+[04jan.2026 22:23:54.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.common.MonsterRoomHooks for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method public static void net.neoforged.neoforge.common.MonsterRoomHooks.onDataMapsUpdated(net.neoforged.neoforge.registries.datamaps.DataMapsUpdatedEvent) to the game event bus
+[04jan.2026 22:23:54.645] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.ConfigurationInitialization for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.ConfigurationInitialization.configureModdedClient(net.neoforged.neoforge.network.event.RegisterConfigurationTasksEvent) to the event bus of mod neoforge
+[04jan.2026 22:23:54.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.NetworkInitialization for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.647] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.NetworkInitialization.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[04jan.2026 22:23:54.648] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Scanning class net.neoforged.neoforge.network.filters.GenericPacketSplitter for @SubscribeEvent-annotated methods
+[04jan.2026 22:23:54.665] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[04jan.2026 22:23:54.666] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[04jan.2026 22:23:54.666] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7b0501dd
+[04jan.2026 22:23:54.671] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[04jan.2026 22:23:54.671] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 32
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 32
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[04jan.2026 22:23:54.673] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[04jan.2026 22:23:54.674] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[04jan.2026 22:23:54.674] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[04jan.2026 22:23:54.674] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[04jan.2026 22:23:54.674] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.disableCacheFinalizersForFastThreadLocalThreads: false
+[04jan.2026 22:23:54.678] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[04jan.2026 22:23:54.678] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[04jan.2026 22:23:54.678] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[04jan.2026 22:23:54.681] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Subscribing method private static void net.neoforged.neoforge.network.filters.GenericPacketSplitter.register(net.neoforged.neoforge.network.event.RegisterPayloadHandlersEvent) to the event bus of mod neoforge
+[04jan.2026 22:23:54.776] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[04jan.2026 22:23:54.783] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[04jan.2026 22:23:54.783] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-common.toml
+[04jan.2026 22:23:54.787] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-common.toml for changes
+[04jan.2026 22:23:54.790] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 1 jobs
+[04jan.2026 22:23:54.791] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 570.7 μs
+[04jan.2026 22:23:54.857] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[04jan.2026 22:23:56.210] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1461 recipes
+[04jan.2026 22:23:56.220] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1574 advancements
+[04jan.2026 22:23:56.222] [main/INFO] [net.neoforged.neoforge.common.crafting.RecipePriorityManager/]: Loaded 0 recipe priority overrides
+[04jan.2026 22:23:56.260] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:23:56.659] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.10
+[04jan.2026 22:23:56.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04jan.2026 22:23:56.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04jan.2026 22:23:56.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04jan.2026 22:23:56.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 25.44.177.84:25565
+[04jan.2026 22:23:56.731] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv4 address: "25.44.177.84"
+[04jan.2026 22:23:56.748] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 32
+[04jan.2026 22:23:56.756] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[04jan.2026 22:23:56.764] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.noKeySetOptimization: false
+[04jan.2026 22:23:56.764] [Server thread/DEBUG] [io.netty.channel.nio.NioEventLoop/]: -Dio.netty.selectorAutoRebuildThreshold: 512
+[04jan.2026 22:23:56.769] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[04jan.2026 22:23:56.798] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[04jan.2026 22:23:56.811] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 33256 (auto-detected)
+[04jan.2026 22:23:56.812] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: true
+[04jan.2026 22:23:56.812] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: false
+[04jan.2026 22:23:56.814] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: loopback_0 (Software Loopback Interface 1, 0:0:0:0:0:0:0:1)
+[04jan.2026 22:23:56.814] [Server thread/DEBUG] [io.netty.util.NetUtil/]: Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+[04jan.2026 22:23:56.815] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: fc:4c:ea:ff:fe:d2:08:8f (auto-detected)
+[04jan.2026 22:23:56.826] [Server thread/DEBUG] [io.netty.bootstrap.ChannelInitializerExtensions/]: -Dio.netty.bootstrap.extensions: null
+[04jan.2026 22:23:56.841] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[04jan.2026 22:23:56.842] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\jei-server.toml
+[04jan.2026 22:23:56.842] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\jei-server.toml for changes
+[04jan.2026 22:23:56.844] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[04jan.2026 22:23:56.844] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-server.toml
+[04jan.2026 22:23:56.844] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file C:\Minecraft\minecraft-servidor-01\server\config\neoforge-server.toml for changes
+[04jan.2026 22:23:56.871] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04jan.2026 22:23:57.107] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Loading 0 persistent chunks...
+[04jan.2026 22:23:57.248] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Preparing spawn area: 100%
+[04jan.2026 22:23:57.360] [Server thread/INFO] [net.minecraft.server.level.progress.LoggingLevelLoadListener/]: Time elapsed: 253 ms
+[04jan.2026 22:23:57.477] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (0.635s)! For help, type "help"
+[04jan.2026 22:23:57.507] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 5 language files for en_us
+[04jan.2026 22:23:57.511] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[04jan.2026 22:24:57.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[04jan.2026 22:24:57.528] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:33:27.409] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.maxCapacityPerThread: 4096
+[04jan.2026 22:33:27.410] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.ratio: 8
+[04jan.2026 22:33:27.410] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.chunkSize: 32
+[04jan.2026 22:33:27.410] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.blocking: false
+[04jan.2026 22:33:27.410] [Netty Server IO #1/DEBUG] [io.netty.util.Recycler/]: -Dio.netty.recycler.batchFastThreadLocalOnly: true
+[04jan.2026 22:33:28.255] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Bela7852 is 00f5e9d7-9b9f-405a-862b-d8a606b3120e
+[04jan.2026 22:33:28.468] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@1989bfa1 into net.minecraft.network.Connection@5effb83f
+[04jan.2026 22:33:30.380] [Netty Server IO #1/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.GenericPacketSplitter@17a70fdc into net.minecraft.network.Connection@5effb83f
+[04jan.2026 22:33:30.560] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Bela7852[/25.44.177.84:60832] logged in with entity id 190 at (170.11982777272672, 88.74211148592426, 7.207231144561899)
+[04jan.2026 22:33:30.579] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/]: Sending 1461 recipes of the following types: [blasting, smelting, smoking, smithing, crafting, stonecutting, campfire_cooking]
+[04jan.2026 22:33:30.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 joined the game
+[04jan.2026 22:33:32.593] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2077ms or 41 ticks behind
+[04jan.2026 22:33:51.594] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4028ms or 80 ticks behind
+[04jan.2026 22:34:39.629] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player maskeikooo is 36f5fca9-d60b-49ed-a79e-2d0860180e6f
+[04jan.2026 22:34:39.799] [Netty Server IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@49fc0eb2 into net.minecraft.network.Connection@781af286
+[04jan.2026 22:34:40.757] [Netty Server IO #2/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@d54b446 into net.minecraft.network.Connection@781af286
+[04jan.2026 22:34:40.760] [Server thread/DEBUG] [net.neoforged.neoforge.network.filters.NetworkFilters/]: Injected net.neoforged.neoforge.network.filters.VanillaConnectionNetworkFilter@407a6133 into net.minecraft.network.Connection@781af286
+[04jan.2026 22:34:40.858] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: maskeikooo[/25.40.245.120:62255] logged in with entity id 788 at (237.54188435581037, 76.5625, 46.960460070322675)
+[04jan.2026 22:34:40.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo joined the game
+[04jan.2026 22:38:36.489] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:39:45.149] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=62, z=-159} BlockPos{x=-128, y=62, z=-157}
+[04jan.2026 22:39:45.211] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-127, y=64, z=-156} BlockPos{x=-128, y=62, z=-157}
+[04jan.2026 22:39:46.603] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=62, z=-159} BlockPos{x=-127, y=63, z=-158}
+[04jan.2026 22:39:48.232] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-126, y=63, z=-157} BlockPos{x=-125, y=63, z=-157}
+[04jan.2026 22:43:36.368] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:44:43.140] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-124, y=56, z=-162} BlockPos{x=-124, y=54, z=-161}
+[04jan.2026 22:45:20.303] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=66, z=-163} BlockPos{x=-122, y=65, z=-161}
+[04jan.2026 22:45:20.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=66, z=-163} BlockPos{x=-122, y=65, z=-161}
+[04jan.2026 22:45:20.393] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=66, z=-163} BlockPos{x=-122, y=65, z=-161}
+[04jan.2026 22:45:20.454] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=66, z=-163} BlockPos{x=-122, y=65, z=-161}
+[04jan.2026 22:45:20.483] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=66, z=-163} BlockPos{x=-122, y=65, z=-161}
+[04jan.2026 22:45:23.208] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-120, y=65, z=-163} BlockPos{x=-119, y=64, z=-163}
+[04jan.2026 22:45:30.335] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.392] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.457] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.517] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.520] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.584] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.636] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.701] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.758] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.900] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.901] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:30.957] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:31.008] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:31.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:31.123] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-128, y=64, z=-163} BlockPos{x=-127, y=63, z=-163}
+[04jan.2026 22:45:52.430] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-126, y=66, z=-174} BlockPos{x=-126, y=65, z=-175}
+[04jan.2026 22:45:52.483] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-126, y=66, z=-174} BlockPos{x=-126, y=65, z=-175}
+[04jan.2026 22:45:52.544] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-126, y=66, z=-174} BlockPos{x=-126, y=65, z=-175}
+[04jan.2026 22:45:54.966] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.021] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.097] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.099] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.134] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.269] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.271] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.324] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.325] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.398] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.484] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.486] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.549] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:45:55.609] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-130, y=63, z=-169} BlockPos{x=-129, y=63, z=-169}
+[04jan.2026 22:46:06.936] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:06.997] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.056] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.116] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.181] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.182] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.252] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.338] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.340] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.409] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.434] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.485] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.581] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:07.671] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=65, z=-171} BlockPos{x=-141, y=64, z=-169}
+[04jan.2026 22:46:52.383] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -13.58309892570955,6.352548511033675,-9.935133806315172
+[04jan.2026 22:47:51.062] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-125, y=61, z=-158} BlockPos{x=-126, y=62, z=-158}
+[04jan.2026 22:47:51.143] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-125, y=61, z=-158} BlockPos{x=-126, y=62, z=-158}
+[04jan.2026 22:47:58.653] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-123, y=63, z=-155} BlockPos{x=-123, y=63, z=-156}
+[04jan.2026 22:48:20.190] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-127, y=62, z=-162} BlockPos{x=-127, y=61, z=-161}
+[04jan.2026 22:48:20.589] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-127, y=62, z=-163} BlockPos{x=-125, y=62, z=-162}
+[04jan.2026 22:48:36.730] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:51:23.451] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-132, y=61, z=-170} BlockPos{x=-133, y=60, z=-170}
+[04jan.2026 22:51:23.517] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-132, y=61, z=-170} BlockPos{x=-133, y=60, z=-170}
+[04jan.2026 22:51:24.402] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-132, y=61, z=-170} BlockPos{x=-133, y=60, z=-169}
+[04jan.2026 22:51:30.142] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-136, y=63, z=-171} BlockPos{x=-135, y=60, z=-171}
+[04jan.2026 22:51:30.214] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-136, y=63, z=-171} BlockPos{x=-135, y=60, z=-171}
+[04jan.2026 22:51:32.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-134, y=60, z=-169}
+[04jan.2026 22:51:33.453] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-130, y=61, z=-164}
+[04jan.2026 22:51:33.514] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-130, y=61, z=-164}
+[04jan.2026 22:51:33.579] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-130, y=61, z=-164}
+[04jan.2026 22:51:33.644] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-130, y=61, z=-164}
+[04jan.2026 22:51:33.648] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-137, y=61, z=-169} BlockPos{x=-130, y=61, z=-164}
+[04jan.2026 22:51:38.261] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-126, y=59, z=-165} BlockPos{x=-126, y=58, z=-164}
+[04jan.2026 22:53:23.003] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=57, z=-169} BlockPos{x=-133, y=57, z=-168}
+[04jan.2026 22:53:26.798] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=59, z=-174} BlockPos{x=-136, y=59, z=-173}
+[04jan.2026 22:53:26.856] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=59, z=-174} BlockPos{x=-136, y=59, z=-173}
+[04jan.2026 22:53:26.904] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=59, z=-174} BlockPos{x=-136, y=59, z=-173}
+[04jan.2026 22:53:26.970] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=59, z=-174} BlockPos{x=-136, y=59, z=-173}
+[04jan.2026 22:53:27.032] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=59, z=-174} BlockPos{x=-136, y=59, z=-173}
+[04jan.2026 22:53:36.381] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 22:58:36.308] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:01:44.930] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-131, y=59, z=-163} BlockPos{x=-130, y=59, z=-162}
+[04jan.2026 23:02:20.679] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-138, y=60, z=-159} BlockPos{x=-138, y=59, z=-158}
+[04jan.2026 23:02:21.330] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-140, y=60, z=-159} BlockPos{x=-139, y=59, z=-158}
+[04jan.2026 23:02:24.468] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-143, y=60, z=-163} BlockPos{x=-142, y=59, z=-160}
+[04jan.2026 23:02:50.321] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=61, z=-160} BlockPos{x=-144, y=61, z=-162}
+[04jan.2026 23:02:50.368] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=61, z=-160} BlockPos{x=-144, y=61, z=-162}
+[04jan.2026 23:02:50.430] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=61, z=-160} BlockPos{x=-144, y=61, z=-162}
+[04jan.2026 23:02:50.477] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=61, z=-160} BlockPos{x=-144, y=61, z=-162}
+[04jan.2026 23:02:50.525] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=61, z=-160} BlockPos{x=-144, y=61, z=-162}
+[04jan.2026 23:03:01.205] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=62, z=-171} BlockPos{x=-143, y=61, z=-171}
+[04jan.2026 23:03:01.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=62, z=-171} BlockPos{x=-143, y=61, z=-171}
+[04jan.2026 23:03:01.276] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=62, z=-171} BlockPos{x=-143, y=61, z=-171}
+[04jan.2026 23:03:04.818] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-146, y=64, z=-168} BlockPos{x=-146, y=63, z=-168}
+[04jan.2026 23:03:04.880] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-146, y=64, z=-168} BlockPos{x=-146, y=63, z=-168}
+[04jan.2026 23:03:04.921] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-146, y=64, z=-168} BlockPos{x=-146, y=63, z=-168}
+[04jan.2026 23:03:04.976] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-146, y=64, z=-168} BlockPos{x=-146, y=63, z=-168}
+[04jan.2026 23:03:24.819] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-138, y=54, z=-164} BlockPos{x=-136, y=55, z=-164}
+[04jan.2026 23:03:26.768] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-133, y=59, z=-167} BlockPos{x=-134, y=58, z=-167}
+[04jan.2026 23:03:26.830] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-133, y=59, z=-167} BlockPos{x=-134, y=58, z=-167}
+[04jan.2026 23:03:26.876] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-133, y=59, z=-167} BlockPos{x=-134, y=58, z=-167}
+[04jan.2026 23:03:28.516] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-133, y=58, z=-166} BlockPos{x=-132, y=56, z=-165}
+[04jan.2026 23:03:28.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-133, y=58, z=-166} BlockPos{x=-132, y=56, z=-165}
+[04jan.2026 23:03:36.380] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:03:43.870] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-147, y=62, z=-163} BlockPos{x=-147, y=62, z=-164}
+[04jan.2026 23:04:53.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-144, y=60, z=-169} BlockPos{x=-144, y=59, z=-168}
+[04jan.2026 23:05:05.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=58, z=-159} BlockPos{x=-146, y=58, z=-160}
+[04jan.2026 23:05:05.278] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=58, z=-159} BlockPos{x=-146, y=58, z=-160}
+[04jan.2026 23:05:05.316] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=58, z=-159} BlockPos{x=-146, y=58, z=-160}
+[04jan.2026 23:05:05.373] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=58, z=-159} BlockPos{x=-146, y=58, z=-160}
+[04jan.2026 23:05:20.669] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-149, y=61, z=-165} BlockPos{x=-148, y=63, z=-165}
+[04jan.2026 23:06:30.521] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-142, y=59, z=-159} BlockPos{x=-141, y=58, z=-159}
+[04jan.2026 23:06:40.222] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-135, y=61, z=-155} BlockPos{x=-134, y=61, z=-155}
+[04jan.2026 23:08:36.329] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:10:02.398] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Bela7852 lost connection: Disconnected
+[04jan.2026 23:10:02.401] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Bela7852 left the game
+[04jan.2026 23:11:16.796] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 12.098389558894524,-3.6303668128374227,13.131548142016044
+[04jan.2026 23:13:36.306] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:14:24.974] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-292, y=70, z=-18} BlockPos{x=-293, y=70, z=-19}
+[04jan.2026 23:14:25.007] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-292, y=70, z=-18} BlockPos{x=-293, y=70, z=-19}
+[04jan.2026 23:14:34.559] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.605] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.654] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.708] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.808] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.855] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.912] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:34.970] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:35.014] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-300, y=71, z=-24} BlockPos{x=-301, y=71, z=-23}
+[04jan.2026 23:14:53.206] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.268] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.329] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.354] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.443] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:14:53.568] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-302, y=71, z=-20} BlockPos{x=-304, y=71, z=-19}
+[04jan.2026 23:18:36.242] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:22:53.323] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -16.475834319576762,4.0666338943264435,-5.544271741546694
+[04jan.2026 23:23:36.336] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:27:50.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-207, y=73, z=-66} BlockPos{x=-207, y=71, z=-66}
+[04jan.2026 23:28:36.292] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:33:36.300] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:36:01.645] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-207, y=71, z=7} BlockPos{x=-243, y=78, z=0}
+[04jan.2026 23:38:36.287] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:43:36.289] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:44:53.529] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-264, y=68, z=-80} BlockPos{x=-267, y=69, z=-80}
+[04jan.2026 23:45:07.070] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -5.594594650260376,9.404422021545756,14.644121439179354
+[04jan.2026 23:45:10.919] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -0.5907232201197417,0.1930534245427964,18.133586523081718
+[04jan.2026 23:46:44.027] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:44.073] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:44.120] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:44.166] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:44.230] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:44.258] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=75, z=-78} BlockPos{x=-285, y=75, z=-78}
+[04jan.2026 23:46:45.274] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.322] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.369] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.416] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.480] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.512] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.575] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.621] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.668] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.730] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.779] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:46:45.805] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-285, y=75, z=-80} BlockPos{x=-286, y=75, z=-79}
+[04jan.2026 23:48:36.278] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:49:05.059] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-274, y=70, z=-79} BlockPos{x=-273, y=69, z=-79}
+[04jan.2026 23:53:36.295] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[04jan.2026 23:58:36.277] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:03:36.281] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:05:08.099] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -17.263052520436162,-0.4731515356010192,-5.423153868007834
+[05jan.2026 00:05:56.640] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -10.091832019195039,-0.001335979112141672,-0.6151449180254644
+[05jan.2026 00:08:36.378] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:09:50.464] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=77, z=-55} BlockPos{x=-281, y=82, z=-5}
+[05jan.2026 00:13:36.284] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:14:27.384] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 0.1762444503878271,-1.130906499714527,-9.968803596578585
+[05jan.2026 00:18:36.283] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:23:36.274] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:28:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:29:26.135] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -6.632183502054886,-1.127890238205488,7.5949807586956695
+[05jan.2026 00:31:13.021] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-129, y=57, z=-152} BlockPos{x=-130, y=56, z=-152}
+[05jan.2026 00:33:36.335] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:38:36.277] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:43:36.284] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:48:36.292] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:50:28.592] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-228, y=90, z=-60} BlockPos{x=-234, y=98, z=-39}
+[05jan.2026 00:53:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 00:58:36.273] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:03:36.258] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:08:36.287] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:13:36.270] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:18:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:18:44.345] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:18:44.419] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:18:44.443] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:18:44.524] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:18:44.550] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:18:44.595] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=71, z=-51} BlockPos{x=-203, y=71, z=-51}
+[05jan.2026 01:19:54.357] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=71, z=-53} BlockPos{x=-189, y=71, z=-53}
+[05jan.2026 01:19:54.422] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=71, z=-53} BlockPos{x=-189, y=71, z=-53}
+[05jan.2026 01:19:54.470] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=71, z=-53} BlockPos{x=-189, y=71, z=-53}
+[05jan.2026 01:19:54.516] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-188, y=71, z=-53} BlockPos{x=-189, y=71, z=-53}
+[05jan.2026 01:20:59.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=56, z=-168} BlockPos{x=-114, y=54, z=-169}
+[05jan.2026 01:20:59.730] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=56, z=-168} BlockPos{x=-114, y=54, z=-169}
+[05jan.2026 01:20:59.766] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=56, z=-168} BlockPos{x=-114, y=54, z=-169}
+[05jan.2026 01:20:59.824] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=56, z=-168} BlockPos{x=-114, y=54, z=-169}
+[05jan.2026 01:20:59.858] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-115, y=56, z=-168} BlockPos{x=-114, y=54, z=-169}
+[05jan.2026 01:21:41.873] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-122, y=55, z=-184} BlockPos{x=-122, y=55, z=-185}
+[05jan.2026 01:21:41.907] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-122, y=55, z=-184} BlockPos{x=-122, y=55, z=-185}
+[05jan.2026 01:21:41.967] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-122, y=55, z=-184} BlockPos{x=-122, y=55, z=-185}
+[05jan.2026 01:23:36.301] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:24:05.766] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=52, z=-180} BlockPos{x=-144, y=53, z=-181}
+[05jan.2026 01:24:05.829] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=52, z=-180} BlockPos{x=-144, y=53, z=-181}
+[05jan.2026 01:24:05.854] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=52, z=-180} BlockPos{x=-144, y=53, z=-181}
+[05jan.2026 01:24:05.923] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=52, z=-180} BlockPos{x=-144, y=53, z=-181}
+[05jan.2026 01:24:05.956] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-145, y=52, z=-180} BlockPos{x=-144, y=53, z=-181}
+[05jan.2026 01:28:36.475] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:33:36.273] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:38:36.278] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:43:36.286] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:48:36.273] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:50:44.969] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-208, y=67, z=-38} BlockPos{x=-208, y=68, z=-31}
+[05jan.2026 01:52:13.064] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -9.841223374538458,-2.032868168547239,-14.641921356236406
+[05jan.2026 01:52:21.834] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-212, y=67, z=-40} BlockPos{x=-211, y=67, z=-40}
+[05jan.2026 01:52:21.878] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=68, z=-39} BlockPos{x=-211, y=67, z=-40}
+[05jan.2026 01:52:22.030] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=67, z=-39} BlockPos{x=-211, y=68, z=-39}
+[05jan.2026 01:52:22.076] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-211, y=67, z=-39} BlockPos{x=-211, y=68, z=-39}
+[05jan.2026 01:53:36.266] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:54:55.355] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-214, y=65, z=-37} BlockPos{x=-215, y=64, z=-37}
+[05jan.2026 01:58:36.272] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 01:58:42.982] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-215, y=66, z=-37} BlockPos{x=-215, y=66, z=-36}
+[05jan.2026 02:03:36.317] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:03:53.684] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -17.468903872829337,2.0755448517775648,-0.5775478654870412
+[05jan.2026 02:07:19.667] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-212, y=61, z=179} BlockPos{x=-211, y=62, z=183}
+[05jan.2026 02:07:19.730] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-212, y=61, z=179} BlockPos{x=-211, y=62, z=183}
+[05jan.2026 02:07:19.777] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-212, y=61, z=179} BlockPos{x=-211, y=62, z=183}
+[05jan.2026 02:07:19.825] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-212, y=61, z=179} BlockPos{x=-211, y=62, z=183}
+[05jan.2026 02:08:36.257] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:08:48.970] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -0.9129042495312945,8.351839776847342,15.976475972572246
+[05jan.2026 02:13:36.268] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:14:20.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 16.607717236376644,-1.9343548880877819,-5.960656700561657
+[05jan.2026 02:18:36.253] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:23:36.285] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:26:07.431] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 16.01864566494943,-2.359669234221954,-9.487671867710912
+[05jan.2026 02:28:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:33:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:35:42.804] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -0.6133332317671716,0.5984128500663388,-18.05129534370427
+[05jan.2026 02:36:23.078] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-205, y=97, z=7} BlockPos{x=-203, y=94, z=7}
+[05jan.2026 02:36:23.127] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-203, y=93, z=7} BlockPos{x=-203, y=94, z=7}
+[05jan.2026 02:37:13.930] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-204, y=80, z=6} BlockPos{x=-205, y=81, z=6}
+[05jan.2026 02:37:27.021] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-202, y=79, z=7} BlockPos{x=-202, y=80, z=6}
+[05jan.2026 02:37:27.083] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-202, y=79, z=7} BlockPos{x=-202, y=80, z=6}
+[05jan.2026 02:37:27.129] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-202, y=79, z=7} BlockPos{x=-202, y=80, z=6}
+[05jan.2026 02:37:39.619] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-207, y=75, z=5} BlockPos{x=-201, y=74, z=7}
+[05jan.2026 02:37:39.687] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-207, y=75, z=5} BlockPos{x=-201, y=74, z=7}
+[05jan.2026 02:37:39.727] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-207, y=75, z=5} BlockPos{x=-201, y=74, z=7}
+[05jan.2026 02:38:24.330] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 18.04828187143594,-2.2983464542155616,-0.23859899838815712
+[05jan.2026 02:38:36.299] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:43:36.261] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:44:27.508] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 17.674073552984794,-1.1117694294168814,0.18519189595793684
+[05jan.2026 02:44:57.929] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -17.893268960920096,-0.6218214008113279,-0.7501105953730303
+[05jan.2026 02:48:36.273] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:50:55.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -17.95476280907573,2.4771857083274966,1.3709468082979477
+[05jan.2026 02:50:59.188] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -18.074732180324418,1.6575371802329641,1.4221743504504119
+[05jan.2026 02:53:36.280] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 02:58:36.280] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:00:13.390] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-297, y=74, z=-80} BlockPos{x=-295, y=74, z=-83}
+[05jan.2026 03:00:13.431] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-297, y=74, z=-80} BlockPos{x=-295, y=74, z=-83}
+[05jan.2026 03:00:54.322] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-291, y=71, z=-81} BlockPos{x=-290, y=70, z=-81}
+[05jan.2026 03:03:36.289] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:07:51.788] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-295, y=75, z=-77} BlockPos{x=-220, y=85, z=-66}
+[05jan.2026 03:08:36.270] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:13:36.280] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:14:27.702] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-125, y=56, z=-197} BlockPos{x=-138, y=57, z=-184}
+[05jan.2026 03:14:28.153] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-139, y=58, z=-185} BlockPos{x=-140, y=57, z=-184}
+[05jan.2026 03:14:28.199] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-139, y=58, z=-185} BlockPos{x=-140, y=57, z=-184}
+[05jan.2026 03:14:28.243] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-139, y=58, z=-185} BlockPos{x=-140, y=57, z=-184}
+[05jan.2026 03:14:29.079] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.111] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.155] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.202] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.245] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.329] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:14:29.356] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-141, y=57, z=-181} BlockPos{x=-142, y=57, z=-182}
+[05jan.2026 03:18:36.266] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:23:36.276] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:24:44.681] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 12.49005524858724,-2.895339095820674,-12.62234476805786
+[05jan.2026 03:28:36.292] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:33:36.287] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:34:31.923] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 17.694864158077564,-1.8142435358223423,-5.776570980286483
+[05jan.2026 03:37:54.976] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 17.44287400710661,4.411922110474379,-0.03401072635466029
+[05jan.2026 03:38:36.262] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:43:36.284] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:44:40.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 12.41837374817311,-2.608042164097782,-12.439832592902636
+[05jan.2026 03:45:44.829] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-286, y=78, z=-107} BlockPos{x=-286, y=79, z=-108}
+[05jan.2026 03:46:07.716] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-281, y=79, z=-99} BlockPos{x=-279, y=79, z=-100}
+[05jan.2026 03:46:08.630] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-279, y=79, z=-102} BlockPos{x=-279, y=79, z=-101}
+[05jan.2026 03:46:08.656] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-279, y=79, z=-102} BlockPos{x=-279, y=79, z=-101}
+[05jan.2026 03:46:13.829] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-287, y=79, z=-105} BlockPos{x=-289, y=79, z=-104}
+[05jan.2026 03:47:15.068] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-280, y=78, z=-101} BlockPos{x=-281, y=79, z=-101}
+[05jan.2026 03:47:15.178] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-280, y=78, z=-102} BlockPos{x=-281, y=79, z=-101}
+[05jan.2026 03:47:17.853] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-282, y=78, z=-105} BlockPos{x=-283, y=79, z=-101}
+[05jan.2026 03:48:24.272] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! 11.844839089821107,9.315785855493147,-10.083534003686836
+[05jan.2026 03:48:36.287] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:49:36.752] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo moved too quickly! -18.15285577461802,-0.7200907739996438,-0.6176736184529759
+[05jan.2026 03:53:36.292] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 03:58:36.254] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[05jan.2026 04:01:25.859] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: maskeikooo lost connection: Disconnected
+[05jan.2026 04:01:25.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: maskeikooo left the game
+[05jan.2026 04:02:25.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Server empty for 60 seconds, pausing
+[05jan.2026 04:02:25.830] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[07jan.2026 01:38:34.817] [Server thread/DEBUG] [net.neoforged.fml.classloading.transformation.ClassTransformStatistics/]: Transformed/total loaded classes: 279/6474 (4,31%) and 5 parsed for mixin
+[07jan.2026 01:38:34.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07jan.2026 01:38:34.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07jan.2026 01:38:34.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07jan.2026 01:38:34.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[07jan.2026 01:38:34.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[07jan.2026 01:38:34.921] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[07jan.2026 01:38:34.956] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save New World
+[07jan.2026 01:38:34.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07jan.2026 01:38:34.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07jan.2026 01:38:34.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07jan.2026 01:38:34.968] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07jan.2026 01:38:35.079] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[07jan.2026 01:38:35.088] [main/INFO] [net.neoforged.fml.loading.FMLLoader/]: Closing FML Loader 29bb4533
+[07jan.2026 01:38:35.095] [main/INFO] [net.neoforged.fml.ModLoader/]: Clearing ModLoader
